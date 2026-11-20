@@ -4,7 +4,7 @@ Last verified: November 20, 2026. Maintained by the Chatty team. Every cell link
 
 ## Short answer
 
-Pick Chatty if you sell on Shopify and want the AI to add items to a real Shopify cart, send a checkout link, and mark linked orders in Shopify admin, from a free plan or $19.99 a month. Pick Tidio if you sell on several platforms, want Lyro AI on email, Messenger, Instagram and WhatsApp on any plan with Lyro, and want ticketing on all plans.
+Pick Chatty if you sell on Shopify and want the AI to add items to a real Shopify cart, send a checkout link, and mark linked orders in Shopify admin. Plans start free, with paid plans from $19.99 a month. Pick Tidio if you sell on several platforms, want Lyro AI on email, Messenger, Instagram and WhatsApp on any plan with Lyro, and want ticketing on all plans.
 
 ## Pick Chatty if
 
