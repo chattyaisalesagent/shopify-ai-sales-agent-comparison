@@ -102,34 +102,34 @@
     "id": "ai.product_recommendation",
     "category": "AI agent",
     "feature": "Product recommendations",
-    "value": "Yes, on every plan; recommendation rules are 'Limited' on Free and Basic, custom recommendations on Pro and Plus",
+    "value": "Yes, on every plan; limited on Free and Basic, full on Pro and Plus (pricing page row Smart product recommendation)",
     "status": "yes",
-    "source_url": "https://help.chatty.net/ai/train-ai/ai-skills/ai-product-recommendations",
+    "source_url": "https://chatty.net/pricing/",
     "accessed": "2026-11-20",
-    "evidence": "This feature is available for all users. Custom recommendations are available for Pro & Plus plan users.",
-    "note": "Pricing page row 'Smart product recommendation': Limited, Limited, Yes, Yes. Help center also lists finding products from a customer photo."
+    "evidence": "Smart product recommendation | Limited | Limited | Yes | Yes",
+    "note": "Help center (help.chatty.net/ai/train-ai/ai-skills/ai-product-recommendations): \"This feature is available for all users. Custom recommendations are available for Pro & Plus plan users.\" Help center also lists finding products from a customer photo."
   },
   {
     "id": "ai.add_to_cart",
     "category": "AI agent",
     "feature": "Adds to real cart",
-    "value": "Yes: AI adds and removes items in the shopper's Shopify cart; the help center says the AI Mode chatbox (with Add to cart) is on every plan including Free",
+    "value": "Yes, on Pro and Plus: the AI shopping assistant adds and removes items in the shopper's Shopify cart (pricing page: Pro and Plus unlock the AI shopping assistant)",
     "status": "yes",
-    "source_url": "https://help.chatty.net/ai/overview/what-ai-assistant-can-do",
+    "source_url": "https://chatty.net/pricing/",
     "accessed": "2026-11-20",
-    "evidence": "AI helps customers update their shopping cart by adding and removing items.",
-    "note": "Plan wording conflicts: the Shopify listing and chatty.net/pricing/ FAQ list 'AI Shopping assistant' under Pro and Plus, while help.chatty.net/chatbox/ai-mode-vs-legacy says AI Mode is 'Available on every plan, including Free'. Custom-built cart drawers or non-standard Ajax carts may need extra setup (same article)."
+    "evidence": "Pro and Plus also unlock the AI shopping assistant and the cart reminder templates for abandoned cart recovery",
+    "note": "What the assistant does: help.chatty.net/ai/overview/what-ai-assistant-can-do (\"AI helps customers update their shopping cart by adding and removing items.\"). The Shopify listing also lists AI Shopping assistant under Pro and Plus. Conflict: help.chatty.net/chatbox/ai-mode-vs-legacy says AI Mode is \"Available on every plan, including Free\"; the pricing page is used (see METHODOLOGY.md). Custom-built cart drawers or non-standard Ajax carts may need extra setup."
   },
   {
     "id": "ai.checkout_link",
     "category": "AI agent",
     "feature": "Checkout link",
-    "value": "Yes: AI sends a checkout link with the items in the shopper's cart",
+    "value": "Yes, on Pro and Plus: the AI shopping assistant sends a checkout link with the items in the shopper's cart (pricing page: Pro and Plus unlock the AI shopping assistant)",
     "status": "yes",
-    "source_url": "https://help.chatty.net/ai/overview/what-ai-assistant-can-do",
+    "source_url": "https://chatty.net/pricing/",
     "accessed": "2026-11-20",
-    "evidence": "AI can send customer checkout link with current items in their shopping carts.",
-    "note": ""
+    "evidence": "Pro and Plus also unlock the AI shopping assistant and the cart reminder templates for abandoned cart recovery",
+    "note": "What the assistant does: help.chatty.net/ai/overview/what-ai-assistant-can-do (\"AI can send customer checkout link with current items in their shopping carts.\"). Same plan conflict as ai.add_to_cart."
   },
   {
     "id": "ai.order_tracking",

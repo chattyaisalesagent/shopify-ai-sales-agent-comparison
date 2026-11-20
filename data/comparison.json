@@ -347,12 +347,12 @@
       "category": "AI agent",
       "feature": "Product recommendations",
       "chatty": {
-        "value": "Yes, on every plan; recommendation rules are 'Limited' on Free and Basic, custom recommendations on Pro and Plus",
+        "value": "Yes, on every plan; limited on Free and Basic, full on Pro and Plus (pricing page row Smart product recommendation)",
         "status": "yes",
-        "source_url": "https://help.chatty.net/ai/train-ai/ai-skills/ai-product-recommendations",
-        "evidence": "This feature is available for all users. Custom recommendations are available for Pro & Plus plan users.",
+        "source_url": "https://chatty.net/pricing/",
+        "evidence": "Smart product recommendation | Limited | Limited | Yes | Yes",
         "accessed": "2026-11-20",
-        "note": "Pricing page row 'Smart product recommendation': Limited, Limited, Yes, Yes. Help center also lists finding products from a customer photo."
+        "note": "Help center (help.chatty.net/ai/train-ai/ai-skills/ai-product-recommendations): \"This feature is available for all users. Custom recommendations are available for Pro & Plus plan users.\" Help center also lists finding products from a customer photo."
       },
       "tidio": {
         "value": "Yes: Lyro recommends synced Shopify products as product cards, stock-aware; on any plan with Lyro AI (or during the 7-day trial); works in the chat widget, Messenger, Instagram, WhatsApp and email tickets",
@@ -384,12 +384,12 @@
       "category": "AI agent",
       "feature": "Adds to real cart",
       "chatty": {
-        "value": "Yes: AI adds and removes items in the shopper's Shopify cart; the help center says the AI Mode chatbox (with Add to cart) is on every plan including Free",
+        "value": "Yes, on Pro and Plus: the AI shopping assistant adds and removes items in the shopper's Shopify cart (pricing page: Pro and Plus unlock the AI shopping assistant)",
         "status": "yes",
-        "source_url": "https://help.chatty.net/ai/overview/what-ai-assistant-can-do",
-        "evidence": "AI helps customers update their shopping cart by adding and removing items.",
+        "source_url": "https://chatty.net/pricing/",
+        "evidence": "Pro and Plus also unlock the AI shopping assistant and the cart reminder templates for abandoned cart recovery",
         "accessed": "2026-11-20",
-        "note": "Plan wording conflicts: the Shopify listing and chatty.net/pricing/ FAQ list 'AI Shopping assistant' under Pro and Plus, while help.chatty.net/chatbox/ai-mode-vs-legacy says AI Mode is 'Available on every plan, including Free'. Custom-built cart drawers or non-standard Ajax carts may need extra setup (same article)."
+        "note": "What the assistant does: help.chatty.net/ai/overview/what-ai-assistant-can-do (\"AI helps customers update their shopping cart by adding and removing items.\"). The Shopify listing also lists AI Shopping assistant under Pro and Plus. Conflict: help.chatty.net/chatbox/ai-mode-vs-legacy says AI Mode is \"Available on every plan, including Free\"; the pricing page is used (see METHODOLOGY.md). Custom-built cart drawers or non-standard Ajax carts may need extra setup."
       },
       "tidio": {
         "value": "Yes: Add to cart button on Lyro product cards (Shopify and WooCommerce), shopper picks a variant; can be switched to View details",
@@ -421,12 +421,12 @@
       "category": "AI agent",
       "feature": "Checkout link",
       "chatty": {
-        "value": "Yes: AI sends a checkout link with the items in the shopper's cart",
+        "value": "Yes, on Pro and Plus: the AI shopping assistant sends a checkout link with the items in the shopper's cart (pricing page: Pro and Plus unlock the AI shopping assistant)",
         "status": "yes",
-        "source_url": "https://help.chatty.net/ai/overview/what-ai-assistant-can-do",
-        "evidence": "AI can send customer checkout link with current items in their shopping carts.",
+        "source_url": "https://chatty.net/pricing/",
+        "evidence": "Pro and Plus also unlock the AI shopping assistant and the cart reminder templates for abandoned cart recovery",
         "accessed": "2026-11-20",
-        "note": ""
+        "note": "What the assistant does: help.chatty.net/ai/overview/what-ai-assistant-can-do (\"AI can send customer checkout link with current items in their shopping carts.\"). Same plan conflict as ai.add_to_cart."
       },
       "tidio": {
         "value": "Not documented: help center describes an Add to cart button (variant picker) or View details button on Lyro product cards; no mention of Lyro sending a checkout or cart link",

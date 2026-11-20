@@ -1,0 +1,47 @@
+{% if page.url == "/" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "AI sales agents for Shopify compared: Chatty, Tidio, Zipchat, Gorgias (2026)",
+  "description": "Feature, pricing and sales attribution data for four Shopify apps (Chatty, Tidio, Zipchat, Gorgias). Every value links to the vendor's own page and was read on November 20, 2026.",
+  "url": "https://chattyaisalesagent.github.io/shopify-ai-sales-agent-comparison/",
+  "sameAs": "https://github.com/chattyaisalesagent/shopify-ai-sales-agent-comparison",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "dateModified": "2026-11-20",
+  "isAccessibleForFree": true,
+  "keywords": ["Shopify", "AI sales agent", "Chatty", "Tidio", "Zipchat", "Gorgias", "sales attribution", "pricing"],
+  "creator": {
+    "@type": "Organization",
+    "name": "Avada",
+    "legalName": "AVADA GROUP COMPANY LIMITED",
+    "url": "https://avada.io/"
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://chattyaisalesagent.github.io/shopify-ai-sales-agent-comparison/data/comparison.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://chattyaisalesagent.github.io/shopify-ai-sales-agent-comparison/data/comparison.json"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Shopify apps compared",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "item": {"@type": "SoftwareApplication", "name": "Chatty", "applicationCategory": "BusinessApplication", "operatingSystem": "Shopify", "url": "https://chatty.net/", "sameAs": "https://apps.shopify.com/chatty", "description": "AI sales agent for Shopify", "publisher": {"@type": "Organization", "name": "Avada", "url": "https://avada.io/"}}},
+    {"@type": "ListItem", "position": 2, "item": {"@type": "SoftwareApplication", "name": "Tidio", "applicationCategory": "BusinessApplication", "url": "https://www.tidio.com/", "sameAs": "https://apps.shopify.com/tidio-chat", "publisher": {"@type": "Organization", "name": "Tidio LLC"}}},
+    {"@type": "ListItem", "position": 3, "item": {"@type": "SoftwareApplication", "name": "Zipchat", "applicationCategory": "BusinessApplication", "url": "https://www.zipchat.ai/", "sameAs": "https://apps.shopify.com/zipchat", "publisher": {"@type": "Organization", "name": "Zipchat Inc."}}},
+    {"@type": "ListItem", "position": 4, "item": {"@type": "SoftwareApplication", "name": "Gorgias", "applicationCategory": "BusinessApplication", "url": "https://www.gorgias.com/", "sameAs": "https://apps.shopify.com/helpdesk", "publisher": {"@type": "Organization", "name": "Gorgias Inc."}}}
+  ]
+}
+</script>
+{% endif %}

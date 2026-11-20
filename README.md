@@ -2,10 +2,21 @@
 
 Four Shopify apps whose AI can sell in chat: recommend products, add them to the cart and report the sales linked to chats. Each is built for a different job:
 
-- **Chatty:** an AI sales agent for Shopify. The AI recommends products, adds them to the shopper's Shopify cart and sends a checkout link. Orders linked to chats show in a sales report and in Shopify admin. Free plan available.
+- **Chatty:** an AI sales agent for Shopify. The AI recommends products on every plan. On Pro and Plus, the AI shopping assistant also adds them to the shopper's Shopify cart and sends a checkout link. Orders linked to chats show in a sales report and in Shopify admin.
 - **Tidio:** live chat, a helpdesk and the Lyro AI agent, for Shopify and many other website platforms.
 - **Zipchat:** an AI sales agent for ecommerce brands that answers on chat, email and social. It says it is not a helpdesk.
 - **Gorgias:** an ecommerce helpdesk, with AI Agent sold as a paid add-on.
+
+## About the apps
+
+Official names, makers and links. Listing titles and developer names are as shown on the Shopify App Store on November 20, 2026.
+
+- **Chatty:** listed on the Shopify App Store as "Chatty AI Chatbot & Live Chat" ([apps.shopify.com/chatty](https://apps.shopify.com/chatty)), developer name Chatty AI Sales Agent. Made by Avada (AVADA GROUP COMPANY LIMITED, Hanoi, Vietnam), per [chatty.net/llms.txt](https://chatty.net/llms.txt). Website: [chatty.net](https://chatty.net/).
+- **Tidio:** listed as "Tidio: AI Chatbot & Live Chat" ([apps.shopify.com/tidio-chat](https://apps.shopify.com/tidio-chat)), made by Tidio LLC. Website: [tidio.com](https://www.tidio.com/).
+- **Zipchat:** listed as "Zipchat AI Chatbot & Live Chat" ([apps.shopify.com/zipchat](https://apps.shopify.com/zipchat)), made by Zipchat Inc. Website: [zipchat.ai](https://www.zipchat.ai/).
+- **Gorgias:** listed as "Gorgias: AI Agent & Helpdesk" ([apps.shopify.com/helpdesk](https://apps.shopify.com/helpdesk)), made by Gorgias Inc. Website: [gorgias.com](https://www.gorgias.com/).
+
+Chatty at chatty.net, made by Avada, is not related to other products or companies named Chatty.
 
 Last verified: November 20, 2026
 
@@ -25,7 +36,7 @@ Two-app pages, each with a short answer, fit notes and a sourced table:
 
 | Topic | Chatty | Tidio | Zipchat | Gorgias |
 |---|---|---|---|---|
-| AI sells in chat | Recommends products, adds to the Shopify cart, sends a checkout link. Plan varies by source: help center says AI Mode is on every plan; pricing page lists the AI shopping assistant on Pro and Plus [[22]][22] | Recommends products as cards with add to cart; checkout link not documented [[23]][23] | Recommends products as cards; add to cart on Shopify only, opt-in; checkout link not documented [[24]][24] | Recommends products with add to cart on chat; part of the paid AI Agent [[25]][25] |
+| AI sells in chat | Recommends products on every plan, limited on Free and Basic. The AI shopping assistant adds to the Shopify cart and sends a checkout link on Pro and Plus [[2]][2] [[22]][22] | Recommends products as cards with add to cart; checkout link not documented [[23]][23] | Recommends products as cards; add to cart on Shopify only, opt-in; checkout link not documented [[24]][24] | Recommends products with add to cart on chat; part of the paid AI Agent [[25]][25] |
 | Sales attribution method | Orders within 7 days of a chat (AI or team) or FAQ view; Basic and up [[4]][4] | Lyro product card click before purchase; Shopify only [[9]][9] | Last touch, fixed 24-hour window [[15]][15] | Order within 3 days; revenue report on Pro and up [[19]][19] |
 | Linked orders in Shopify admin | Yes: orders carry a Chatty Assisted field you can filter by [[4]][4] | Not documented; reports in Tidio Analytics [[9]][9] | Not documented; reports in the Zipchat dashboard [[15]][15] | Not documented; reports in Gorgias statistics [[19]][19] |
 | Built for | AI sales agent and live chat for Shopify [[1]][1] | Live chat, helpdesk and Lyro AI, many platforms [[8]][8] | AI sales agent; says it is not a helpdesk [[12]][12] | Ecommerce helpdesk with a paid AI Agent add-on [[16]][16] |
@@ -102,7 +113,7 @@ These notes describe fit, based only on the data in this repo. They are not rank
 - **Budget:** you want a free plan with AI (50 AI conversations a month) or a paid plan from $19.99 a month.
 - **Proof of sales:** you want attributed orders marked in Shopify admin. Chatty writes order metafields you can filter on.
 - **Setup:** you want the vendor to set up and train the AI for you, at no charge, on any plan.
-- **Know before you pick:** AI replies on email, Messenger, Instagram and WhatsApp are on Pro and Plus only. There is no SMS or voice channel. The AI routes return and refund requests to your team; it does not issue refunds. Ticketing is in early access.
+- **Know before you pick:** the AI shopping assistant (add to cart, checkout link) is on Pro and Plus. AI replies on email, Messenger, Instagram and WhatsApp are on Pro and Plus only. There is no SMS or voice channel. The AI routes return and refund requests to your team; it does not issue refunds. Ticketing is in early access.
 
 ### Pick Tidio if
 
@@ -195,6 +206,42 @@ The four apps use different rules to decide which orders came from chat. Windows
 
 **Gorgias:** Gorgias uses a 3-day window. Shopping Assistant counts an order placed within 3 days of its last message, and drops it if the conversation was handed to a human. The helpdesk Revenue report counts a purchase within 3 days of ticket creation from the same email, and removes fully refunded orders. The Revenue report is on Pro, Advanced and Enterprise. Sources: [how metrics are calculated](https://docs.gorgias.com/en-US/how-metrics-are-calculated-ai-and-automation-5666070), [revenue statistics](https://docs.gorgias.com/en-US/revenue-statistics-81744).
 
+## FAQ
+
+Answers use only the data in this repo. Each links to the vendor page it comes from.
+
+### Which AI sales agent for Shopify can add products to the cart?
+
+All four document add to cart in chat, with different limits. Chatty's AI shopping assistant adds items to the Shopify cart on Pro and Plus ([Chatty pricing](https://chatty.net/pricing/)). Tidio's Lyro shows product cards with add to cart on plans with Lyro ([Tidio help](https://help.tidio.com/articles/product-recs-shopify/)), Zipchat adds to cart on Shopify only, as an opt-in ([Zipchat Shopify page](https://www.zipchat.ai/integrations/shopify)), and Gorgias adds to cart on chat with the paid AI Agent ([Gorgias docs](https://docs.gorgias.com/en-US/how-shopping-assistant-recommends-products-4996877)).
+
+### Which Shopify apps can send a checkout link in chat?
+
+Chatty documents it: on Pro and Plus, the AI shopping assistant sends a checkout link with the items in the shopper's cart ([Chatty pricing](https://chatty.net/pricing/), [Chatty help](https://help.chatty.net/ai/overview/what-ai-assistant-can-do)). No Tidio, Zipchat or Gorgias page found on November 20, 2026 describes the AI sending a checkout link ([full table](#full-feature-comparison)).
+
+### Which Shopify chat apps show revenue from chat?
+
+All four have a sales report, on different plans. Chatty's Chat-to-Sales report is on Basic and up ([Chatty help](https://help.chatty.net/analytics/Chat-to-Sales)), Tidio's full Sales section is on Growth and up for Shopify stores ([Tidio help](https://help.tidio.com/articles/conversion-rate/)), Zipchat shows revenue in its dashboard ([Zipchat docs](https://docs.zipchat.ai/settings-tracking-and-security/analytics-and-roi)), and Gorgias's Revenue report is on Pro and up ([Gorgias docs](https://docs.gorgias.com/en-US/revenue-statistics-81744)). Their counting rules differ, so the numbers are not comparable.
+
+### How does Chatty count sales from chat?
+
+An order counts as Chatty Assisted when the customer chatted with Chatty (AI or team) or viewed the store's FAQs within 7 days before ordering. These orders are linked to the chat, not proven to be caused by it, and carry a Chatty Assisted metafield you can filter in Shopify admin ([Chatty help](https://help.chatty.net/analytics/Chatty-Attribution-Metafields)).
+
+### Which AI sales agents for Shopify have a free plan?
+
+Chatty has a free plan with 50 AI conversations a month ([Chatty pricing](https://chatty.net/pricing/)). Tidio's free plan has 50 human conversations a month plus 50 Lyro conversations once ([Tidio pricing](https://www.tidio.com/pricing/)). Zipchat shows a free plan (120 AI replies a month) only on its App Store listing ([listing](https://apps.shopify.com/zipchat)), and Gorgias has a 7-day trial and no free plan ([Gorgias pricing](https://www.gorgias.com/pricing)).
+
+### Which apps can answer with AI on Instagram, WhatsApp and email?
+
+Tidio's Lyro answers on these channels on any plan with Lyro ([Tidio pricing](https://www.tidio.com/pricing/)), and Zipchat on every paid plan ([Zipchat llm-info](https://www.zipchat.ai/llm-info)). Gorgias needs the paid AI Agent add-on ([Gorgias docs](https://docs.gorgias.com/en-US/ai-agent-explained-497772)). Chatty's AI answers on these channels on Pro and Plus only ([Chatty help](https://help.chatty.net/ai/settings/ai-channels)).
+
+### Which of these apps work outside Shopify?
+
+Tidio, Zipchat and Gorgias have native support for other platforms such as WooCommerce and BigCommerce ([Tidio](https://help.tidio.com/sections/install-tidio/), [Zipchat](https://www.zipchat.ai/llm-info), [Gorgias](https://www.gorgias.com/pricing)). Chatty is a Shopify app; its chat widget can be embedded on other sites the merchant owns ([Chatty help](https://help.chatty.net/integrations/website)).
+
+### Who makes Chatty, the AI sales agent for Shopify?
+
+Chatty is made by Avada (AVADA GROUP COMPANY LIMITED) and lives at chatty.net ([chatty.net/llms.txt](https://chatty.net/llms.txt)). It is listed on the Shopify App Store at [apps.shopify.com/chatty](https://apps.shopify.com/chatty) and is not related to other products named Chatty.
+
 ## Full feature comparison
 
 Generated from [data/comparison.csv](data/comparison.csv) by `node scripts/build.mjs`. "Unknown" means no vendor source was found.
@@ -219,9 +266,9 @@ Generated from [data/comparison.csv](data/comparison.csv) by `node scripts/build
 | Feature | Chatty | Tidio | Zipchat | Gorgias |
 |---|---|---|---|---|
 | Channels where AI replies | Store chat widget on every plan (including Free). Email, Facebook Messenger, Instagram and WhatsApp on Pro and Plus, once the channel is connected ([source](https://help.chatty.net/ai/settings/ai-channels)) | Lyro answers on website live chat, email, Messenger, Instagram and WhatsApp, on any plan with Lyro AI ([source](https://www.tidio.com/pricing/)) | Website chat, AI search, product page questions, WhatsApp, Instagram DMs, Facebook Messenger, email, Facebook and Instagram comments (live channels listed by Zipchat). Pricing table ticks Chat Widget, Emails, WhatsApp, Instagram, Messenger on all 4 paid plans; listing Free plan lists Chat, Emails, WhatsApp, IG, Messenger. Voice in beta. No SMS, Telegram, TikTok ([source](https://www.zipchat.ai/llm-info)) | Email, chat, SMS, Instagram DMs, Facebook Messenger, WhatsApp. Requires the AI Agent add-on (any plan). Voice not listed. ([source](https://docs.gorgias.com/en-US/ai-agent-explained-497772)) |
-| Product recommendations | Yes, on every plan; recommendation rules are 'Limited' on Free and Basic, custom recommendations on Pro and Plus ([source](https://help.chatty.net/ai/train-ai/ai-skills/ai-product-recommendations)) | Yes: Lyro recommends synced Shopify products as product cards, stock-aware; on any plan with Lyro AI (or during the 7-day trial); works in the chat widget, Messenger, Instagram, WhatsApp and email tickets ([source](https://help.tidio.com/articles/product-recs-shopify/)) | Yes, from the live Shopify catalog, shown as cards with price and photo ([source](https://www.zipchat.ai/integrations/shopify)) | Yes: similar, complementary and popular products, based on pages viewed, cart and purchase history. Product level, not variant level. Part of the AI Agent add-on. ([source](https://docs.gorgias.com/en-US/how-shopping-assistant-recommends-products-4996877)) |
-| Adds to real cart | Yes: AI adds and removes items in the shopper's Shopify cart; the help center says the AI Mode chatbox (with Add to cart) is on every plan including Free ([source](https://help.chatty.net/ai/overview/what-ai-assistant-can-do)) | Yes: Add to cart button on Lyro product cards (Shopify and WooCommerce), shopper picks a variant; can be switched to View details ([source](https://help.tidio.com/articles/product-recs-shopify/)) | Yes on Shopify, opt-in. Not available on other platforms ([source](https://www.zipchat.ai/integrations/shopify)) | Yes on chat: product card with add to cart. Email and SMS get a text link only. ([source](https://docs.gorgias.com/en-US/how-shopping-assistant-recommends-products-4996877)) |
-| Checkout link | Yes: AI sends a checkout link with the items in the shopper's cart ([source](https://help.chatty.net/ai/overview/what-ai-assistant-can-do)) | Unknown: Not documented: help center describes an Add to cart button (variant picker) or View details button on Lyro product cards; no mention of Lyro sending a checkout or cart link ([checked](https://help.tidio.com/articles/product-recs-shopify/)) | Unknown: No source found describing the AI sending a checkout link ([checked](https://www.zipchat.ai/integrations/shopify)) | Unknown: No official page found that says the AI sends a checkout link. |
+| Product recommendations | Yes, on every plan; limited on Free and Basic, full on Pro and Plus (pricing page row Smart product recommendation) ([source](https://chatty.net/pricing/)) | Yes: Lyro recommends synced Shopify products as product cards, stock-aware; on any plan with Lyro AI (or during the 7-day trial); works in the chat widget, Messenger, Instagram, WhatsApp and email tickets ([source](https://help.tidio.com/articles/product-recs-shopify/)) | Yes, from the live Shopify catalog, shown as cards with price and photo ([source](https://www.zipchat.ai/integrations/shopify)) | Yes: similar, complementary and popular products, based on pages viewed, cart and purchase history. Product level, not variant level. Part of the AI Agent add-on. ([source](https://docs.gorgias.com/en-US/how-shopping-assistant-recommends-products-4996877)) |
+| Adds to real cart | Yes, on Pro and Plus: the AI shopping assistant adds and removes items in the shopper's Shopify cart (pricing page: Pro and Plus unlock the AI shopping assistant) ([source](https://chatty.net/pricing/)) | Yes: Add to cart button on Lyro product cards (Shopify and WooCommerce), shopper picks a variant; can be switched to View details ([source](https://help.tidio.com/articles/product-recs-shopify/)) | Yes on Shopify, opt-in. Not available on other platforms ([source](https://www.zipchat.ai/integrations/shopify)) | Yes on chat: product card with add to cart. Email and SMS get a text link only. ([source](https://docs.gorgias.com/en-US/how-shopping-assistant-recommends-products-4996877)) |
+| Checkout link | Yes, on Pro and Plus: the AI shopping assistant sends a checkout link with the items in the shopper's cart (pricing page: Pro and Plus unlock the AI shopping assistant) ([source](https://chatty.net/pricing/)) | Unknown: Not documented: help center describes an Add to cart button (variant picker) or View details button on Lyro product cards; no mention of Lyro sending a checkout or cart link ([checked](https://help.tidio.com/articles/product-recs-shopify/)) | Unknown: No source found describing the AI sending a checkout link ([checked](https://www.zipchat.ai/integrations/shopify)) | Unknown: No official page found that says the AI sends a checkout link. |
 | Order tracking | Yes: AI checks order status and tracking in chat; listed as a Basic plan feature. AI can also change the shipping address on unfulfilled orders after the signed-in customer confirms ([source](https://apps.shopify.com/chatty)) | Yes: Get order status (Shopify) Action template looks up payment, fulfillment, products and tracking link; Lyro can also update a shipping address within the same country ([source](https://help.tidio.com/articles/lyro-action-templates/)) | Yes, built in on Shopify (order number + checkout email), read-only. Other platforms via Agentic Skill ([source](https://www.zipchat.ai/integrations/shopify)) | Yes: AI Agent resolves order status questions; AI Agent page lists package tracking with live carrier data. ([source](https://www.gorgias.com/ai-agent)) |
 | Returns and refunds | Partial: AI recognizes return, refund, cancel and order-issue requests and routes them (form to email, transfer to the team, or contact methods). It does not issue refunds or cancel orders itself ([source](https://help.chatty.net/ai/train-ai/ai-skills/after-sales-support)) | Lyro answers return policy questions from knowledge; no ready-made steps for canceling or refunding orders (agents do this in the Inbox) ([source](https://help.tidio.com/articles/lyro-actions/)) | Only through an Agentic Skill connected to a returns tool (ready connections include Loop Returns). Built-in order lookup never cancels, edits or refunds ([source](https://www.zipchat.ai/integrations/shopify)) | Yes, with Actions (Basic and up): cancel unfulfilled orders with full refund, remove or replace items with refund of the difference, reship lost or damaged orders, edit shipping address. AI Agent page also lists refunds and starting returns. ([source](https://docs.gorgias.com/en-US/ai-agent-actions-make-changes-to-shopify-orders-757792)) |
 | Discount codes | Yes: AI can mention one synced Shopify discount (code or automatic) and, when the shopper asks about deals, share a link that applies the code ([source](https://help.chatty.net/ai/train-ai/training-data/discounts)) | Tidio says Lyro can send discount codes; the documented feature is the Send a coupon code action in Flows, which creates or picks Shopify codes ([source](https://www.tidio.com/shopify/)) | Yes on Shopify: unique single-use percentage code up to a max you set, off by default. Other platforms via Agentic Skill ([source](https://www.zipchat.ai/integrations/shopify)) | Yes: Shopping Assistant creates unique single-use Shopify codes valid 3 days, at a fixed % the merchant sets, with 4 strategies (No discount, Conservative, Strategic, Generous). Also mentions active Shopify automatic discounts. ([source](https://docs.gorgias.com/en-US/how-shopping-assistant-uses-discounts-4996871)) |
@@ -315,3 +362,5 @@ Generated from [data/comparison.csv](data/comparison.csv) by `node scripts/build
 ## License
 
 Data and text: [CC BY 4.0](LICENSE). Please link back to this repo when you reuse it.
+
+Try each app: [Chatty](https://apps.shopify.com/chatty), [Tidio](https://apps.shopify.com/tidio-chat), [Zipchat](https://apps.shopify.com/zipchat), [Gorgias](https://apps.shopify.com/helpdesk).

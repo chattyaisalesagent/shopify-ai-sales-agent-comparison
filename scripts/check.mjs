@@ -2,6 +2,7 @@
 // - a non-unknown cell lacks source_url or accessed
 // - any text file contains an em dash (U+2014) or middle dot (U+00B7)
 // - any table cell in README.md or compare/*.md is empty or a table row has the wrong cell count
+// - llms.txt, _config.yml or _includes/head-custom.html is missing, or README.md / compare/*.md lacks the FAQ or Try each app line
 // Usage: node scripts/check.mjs
 import { readFileSync, readdirSync, statSync } from 'node:fs';
 import { join, dirname, relative } from 'node:path';
@@ -72,6 +73,21 @@ for (const file of tableFiles) {
       if (c === '') errors.push(`${file}:${n + 1}: empty cell ${k + 1}`);
     });
   });
+}
+
+// 4. Discovery files and sections
+for (const f of ['llms.txt', '_config.yml', '_includes/head-custom.html']) {
+  try {
+    statSync(join(root, f));
+  } catch {
+    errors.push(`${f}: missing`);
+  }
+}
+for (const file of tableFiles) {
+  const text = readFileSync(join(root, file), 'utf8');
+  for (const needle of ['## FAQ', 'Try each app:', 'https://apps.shopify.com/chatty']) {
+    if (!text.includes(needle)) errors.push(`${file}: missing "${needle}"`);
+  }
 }
 
 if (errors.length) {

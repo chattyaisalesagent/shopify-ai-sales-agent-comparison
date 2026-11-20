@@ -5,11 +5,10 @@ Every URL used in the data files, grouped by app. All pages were read on the dat
 ## Chatty
 
 - https://apps.shopify.com/chatty (accessed 2026-11-20). Used for: pricing.plans, pricing.entry_paid, pricing.ai_overage, ai.order_tracking, plat.shopify, rating.shopify_app_store
-- https://chatty.net/pricing/ (accessed 2026-11-20). Used for: pricing.free_plan, pricing.trial, pricing.ai_unit, pricing.ai_included, pricing.seats, ch.live_chat, other.faq_help_center, extra.ai_model_by_plan
-- https://help.chatty.net/ai/overview/what-ai-assistant-can-do (accessed 2026-11-20). Used for: ai.add_to_cart, ai.checkout_link, ai.languages
+- https://chatty.net/pricing/ (accessed 2026-11-20). Used for: pricing.free_plan, pricing.trial, pricing.ai_unit, pricing.ai_included, pricing.seats, ai.product_recommendation, ai.add_to_cart, ai.checkout_link, ch.live_chat, other.faq_help_center, extra.ai_model_by_plan
+- https://help.chatty.net/ai/overview/what-ai-assistant-can-do (accessed 2026-11-20). Used for: ai.languages
 - https://help.chatty.net/ai/settings/ai-channels (accessed 2026-11-20). Used for: ai.channels
 - https://help.chatty.net/ai/train-ai/ai-skills/after-sales-support (accessed 2026-11-20). Used for: ai.returns_refunds
-- https://help.chatty.net/ai/train-ai/ai-skills/ai-product-recommendations (accessed 2026-11-20). Used for: ai.product_recommendation
 - https://help.chatty.net/ai/train-ai/ai-skills/connect-your-own-api (accessed 2026-11-20). Used for: ai.custom_actions
 - https://help.chatty.net/ai/train-ai/ai-skills/transfer (accessed 2026-11-20). Used for: ai.human_handover
 - https://help.chatty.net/ai/train-ai/training-data (accessed 2026-11-20). Used for: setup.onboarding

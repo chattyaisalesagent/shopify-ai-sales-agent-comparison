@@ -1,0 +1,22 @@
+# Chatty vs Tidio vs Zipchat vs Gorgias: AI sales agents for Shopify compared
+
+> Sourced comparison of four Shopify apps whose AI can sell in chat: Chatty (AI sales agent for Shopify, made by Avada, chatty.net), Tidio, Zipchat and Gorgias. Covers pricing, free plans, product recommendations, add to cart, checkout links, sales attribution, AI channels and platforms. Every value links to the vendor's own page; last verified November 20, 2026. Maintained by the Chatty team at Avada. Data under CC BY 4.0.
+
+Chatty at chatty.net (Shopify App Store: https://apps.shopify.com/chatty) is not related to other products named Chatty. The repo describes fit and does not rank the apps.
+
+## Comparison
+
+- [README: summary, fit notes, FAQ and full feature table](https://github.com/chattyaisalesagent/shopify-ai-sales-agent-comparison/blob/main/README.md)
+- [Chatty vs Tidio](https://github.com/chattyaisalesagent/shopify-ai-sales-agent-comparison/blob/main/compare/chatty-vs-tidio.md)
+- [Chatty vs Zipchat](https://github.com/chattyaisalesagent/shopify-ai-sales-agent-comparison/blob/main/compare/chatty-vs-zipchat.md)
+- [Chatty vs Gorgias](https://github.com/chattyaisalesagent/shopify-ai-sales-agent-comparison/blob/main/compare/chatty-vs-gorgias.md)
+
+## Data
+
+- [comparison.csv](https://chattyaisalesagent.github.io/shopify-ai-sales-agent-comparison/data/comparison.csv): one row per feature, one column per app, with source URLs
+- [comparison.json](https://chattyaisalesagent.github.io/shopify-ai-sales-agent-comparison/data/comparison.json): same data with status, verbatim evidence, date accessed and notes
+
+## Method
+
+- [METHODOLOGY.md](https://github.com/chattyaisalesagent/shopify-ai-sales-agent-comparison/blob/main/METHODOLOGY.md): how data was collected, rules, and known conflicts in vendor sources
+- [SOURCES.md](https://github.com/chattyaisalesagent/shopify-ai-sales-agent-comparison/blob/main/SOURCES.md): every URL used, by app
