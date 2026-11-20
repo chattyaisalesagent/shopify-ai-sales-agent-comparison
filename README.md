@@ -11,7 +11,7 @@ Four Shopify apps whose AI can sell in chat: recommend products, add them to the
 
 Official names, makers and links. Listing titles and developer names are as shown on the Shopify App Store on November 20, 2026.
 
-- **Chatty:** listed on the Shopify App Store as "Chatty AI Chatbot & Live Chat" ([apps.shopify.com/chatty](https://apps.shopify.com/chatty)), developer name Chatty AI Sales Agent. Made by Avada (AVADA GROUP COMPANY LIMITED, Hanoi, Vietnam), per [chatty.net/llms.txt](https://chatty.net/llms.txt). Website: [chatty.net](https://chatty.net/).
+- **Chatty:** Chatty AI Sales Agent, an AI sales agent for Shopify stores, on the Shopify App Store at [apps.shopify.com/chatty](https://apps.shopify.com/chatty). Made by Avada (AVADA GROUP COMPANY LIMITED, Hanoi, Vietnam), per [chatty.net/llms.txt](https://chatty.net/llms.txt). Website: [chatty.net](https://chatty.net/).
 - **Tidio:** listed as "Tidio: AI Chatbot & Live Chat" ([apps.shopify.com/tidio-chat](https://apps.shopify.com/tidio-chat)), made by Tidio LLC. Website: [tidio.com](https://www.tidio.com/).
 - **Zipchat:** listed as "Zipchat AI Chatbot & Live Chat" ([apps.shopify.com/zipchat](https://apps.shopify.com/zipchat)), made by Zipchat Inc. Website: [zipchat.ai](https://www.zipchat.ai/).
 - **Gorgias:** listed as "Gorgias: AI Agent & Helpdesk" ([apps.shopify.com/helpdesk](https://apps.shopify.com/helpdesk)), made by Gorgias Inc. Website: [gorgias.com](https://www.gorgias.com/).
