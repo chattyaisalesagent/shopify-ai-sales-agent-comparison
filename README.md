@@ -1,8 +1,8 @@
-# Chatty vs Tidio vs Zipchat vs Gorgias: AI chat apps for Shopify compared (2026)
+# Chatty vs Tidio vs Zipchat vs Gorgias: AI sales agents for Shopify compared (2026)
 
-Four Shopify apps that put an AI agent in your store chat, each built for a different job:
+Four Shopify apps whose AI can sell in chat: recommend products, add them to the cart and report the sales linked to chats. Each is built for a different job:
 
-- **Chatty:** an AI sales agent and live chat app for Shopify stores, with a free plan.
+- **Chatty:** an AI sales agent for Shopify. The AI recommends products, adds them to the shopper's Shopify cart and sends a checkout link. Orders linked to chats show in a sales report and in Shopify admin. Free plan available.
 - **Tidio:** live chat, a helpdesk and the Lyro AI agent, for Shopify and many other website platforms.
 - **Zipchat:** an AI sales agent for ecommerce brands that answers on chat, email and social. It says it is not a helpdesk.
 - **Gorgias:** an ecommerce helpdesk, with AI Agent sold as a paid add-on.
@@ -17,13 +17,15 @@ See also: [SOURCES.md](SOURCES.md), [METHODOLOGY.md](METHODOLOGY.md), and the ra
 
 | Topic | Chatty | Tidio | Zipchat | Gorgias |
 |---|---|---|---|---|
+| AI sells in chat | Recommends products, adds to the Shopify cart, sends a checkout link; every plan [[22]][22] | Recommends products as cards with add to cart; checkout link not documented [[23]][23] | Recommends products as cards; add to cart on Shopify only, opt-in; checkout link not documented [[24]][24] | Recommends products with add to cart on chat; part of the paid AI Agent [[25]][25] |
+| Sales attribution method | Orders within 7 days of a chat (AI or team) or FAQ view; Basic and up [[4]][4] | Lyro product card click before purchase; Shopify only [[9]][9] | Last touch, fixed 24-hour window [[15]][15] | Order within 3 days; revenue report on Pro and up [[19]][19] |
+| Linked orders in Shopify admin | Yes: orders carry a Chatty Assisted field you can filter by [[4]][4] | Not documented; reports in Tidio Analytics [[9]][9] | Not documented; reports in the Zipchat dashboard [[15]][15] | Not documented; reports in Gorgias statistics [[19]][19] |
 | Built for | AI sales agent and live chat, Shopify only [[1]][1] | Live chat, helpdesk and Lyro AI, many platforms [[8]][8] | AI sales agent; says it is not a helpdesk [[12]][12] | Ecommerce helpdesk with a paid AI Agent add-on [[16]][16] |
 | Free plan | Yes: 50 AI conversations/month [[2]][2] | Yes: 50 human conversations/month, plus 50 Lyro conversations once [[8]][8] | Only on the App Store listing: 120 AI replies/month [[13]][13] | No. 7-day free trial [[16]][16] |
 | Entry paid price | $19.99/month (Basic) [[1]][1] | $29/month human only; $39/month with Lyro AI [[7]][7] | $80/month (Starter) [[14]][14] | $10/month helpdesk; $40/month with AI Agent [[16]][16] |
 | How AI is billed | AI conversations included per plan [[2]][2] | Conversations, one quota shared by Lyro and team [[8]][8] | Per AI reply, all channels [[14]][14] | Per automated interaction, plus a helpdesk ticket fee [[17]][17] |
 | AI overage | $0.075 per AI reply, up to a cap you set [[1]][1] | None. Lyro and team stop at the limit [[11]][11] | Prepaid packs: $49 per 250 replies [[14]][14] | $1.50 per automated interaction [[16]][16] |
 | AI channels | Store chat on every plan. Email, Messenger, Instagram, WhatsApp on Pro and Plus only [[3]][3] | Web chat, email, Messenger, Instagram, WhatsApp on any plan with Lyro AI [[8]][8] | Web chat, email, WhatsApp, Instagram, Messenger, comments on every plan [[12]][12] | Email, chat, SMS, Instagram, Messenger, WhatsApp with the AI Agent add-on [[18]][18] |
-| Sales attribution method | Orders within 7 days of a chat (AI or team) or FAQ view; Basic and up [[4]][4] | Lyro product card click before purchase; Shopify only [[9]][9] | Last touch, fixed 24-hour window [[15]][15] | Order within 3 days; revenue report on Pro and up [[19]][19] |
 | Platforms | Shopify; widget can be embedded on other sites [[5]][5] | Shopify, WooCommerce, BigCommerce, Squarespace and others [[10]][10] | Shopify, WooCommerce, Magento, BigCommerce and others; add to cart Shopify only [[12]][12] | Shopify, WooCommerce, BigCommerce, Magento; AI Agent Shopify only [[16]][16] |
 | Setup help | Free done-for-you AI setup on every plan [[6]][6] | Self-service on Starter and Growth; success manager on Plus [[8]][8] | Free onboarding call on every plan [[14]][14] | Implementation manager; CSM depends on Shopify GMV [[20]][20] |
 | Shopify App Store rating | 4.9 stars, 1,894 reviews (Nov 20, 2026) [[1]][1] | 4.8 stars, 1,358 reviews (Nov 20, 2026) [[7]][7] | 4.9 stars, 211 reviews (Nov 20, 2026) [[13]][13] | 4.3 stars, 709 reviews (Nov 20, 2026) [[21]][21] |
@@ -51,6 +53,10 @@ Table sources:
 19. https://docs.gorgias.com/en-US/how-metrics-are-calculated-ai-and-automation-5666070
 20. https://www.gorgias.com/onboarding
 21. https://apps.shopify.com/helpdesk
+22. https://help.chatty.net/ai/overview/what-ai-assistant-can-do
+23. https://help.tidio.com/articles/product-recs-shopify/
+24. https://www.zipchat.ai/integrations/shopify
+25. https://docs.gorgias.com/en-US/how-shopping-assistant-recommends-products-4996877
 
 [1]: https://apps.shopify.com/chatty
 [2]: https://chatty.net/pricing/
@@ -73,6 +79,10 @@ Table sources:
 [19]: https://docs.gorgias.com/en-US/how-metrics-are-calculated-ai-and-automation-5666070
 [20]: https://www.gorgias.com/onboarding
 [21]: https://apps.shopify.com/helpdesk
+[22]: https://help.chatty.net/ai/overview/what-ai-assistant-can-do
+[23]: https://help.tidio.com/articles/product-recs-shopify/
+[24]: https://www.zipchat.ai/integrations/shopify
+[25]: https://docs.gorgias.com/en-US/how-shopping-assistant-recommends-products-4996877
 
 ## Which one fits your store
 
