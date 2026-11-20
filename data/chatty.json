@@ -113,12 +113,12 @@
     "id": "ai.add_to_cart",
     "category": "AI agent",
     "feature": "Adds to real cart",
-    "value": "Yes: AI adds and removes items in the shopper's Shopify cart; AI Mode chatbox (with Add to cart) is on every plan including Free",
+    "value": "Yes: AI adds and removes items in the shopper's Shopify cart; the help center says the AI Mode chatbox (with Add to cart) is on every plan including Free",
     "status": "yes",
     "source_url": "https://help.chatty.net/ai/overview/what-ai-assistant-can-do",
     "accessed": "2026-11-20",
     "evidence": "AI helps customers update their shopping cart by adding and removing items.",
-    "note": "Custom-built cart drawers or non-standard Ajax carts may need extra setup (same article). AI Mode on every plan: help.chatty.net/chatbox/ai-mode-vs-legacy."
+    "note": "Plan wording conflicts: the Shopify listing and chatty.net/pricing/ FAQ list 'AI Shopping assistant' under Pro and Plus, while help.chatty.net/chatbox/ai-mode-vs-legacy says AI Mode is 'Available on every plan, including Free'. Custom-built cart drawers or non-standard Ajax carts may need extra setup (same article)."
   },
   {
     "id": "ai.checkout_link",
@@ -168,12 +168,12 @@
     "id": "ai.knowledge_sources",
     "category": "AI agent",
     "feature": "Knowledge sources",
-    "value": "Shopify products, collections, discounts and markets (synced), store FAQs and pages, custom Q&A, URLs and files",
+    "value": "Shopify products, collections and discounts (synced), store FAQs and pages, custom Q&A, URLs and files; Shopify Markets data on Pro and Plus",
     "status": "yes",
     "source_url": "https://help.chatty.net/ai/train-ai/training-data/knowledge-base",
     "accessed": "2026-11-20",
     "evidence": "Knowledge base Your own answers: questions, links, files, and the FAQs and pages synced from your store",
-    "note": "Limits per plan (pricing page): products 200 / 1,500 / 8,000 / 20,000; custom answers 100 / 5,000 / unlimited / unlimited; URL & file 20 / 200 / 2,000 / unlimited."
+    "note": "Limits per plan (pricing page): products 200 / 1,500 / 8,000 / 20,000; custom answers 100 / 5,000 / unlimited / unlimited; URL & file 20 / 200 / 2,000 / unlimited. Market information tab is off by default and available on Pro and Plus (help.chatty.net/ai/train-ai/training-data)."
   },
   {
     "id": "ai.languages",
@@ -190,12 +190,12 @@
     "id": "ai.human_handover",
     "category": "AI agent",
     "feature": "Human handover",
-    "value": "Yes: auto handoff when the shopper asks for a person, after 2 low-confidence replies, on repeated questions or negative sentiment; the shopper stays in the same chat and the team gets an AI summary",
+    "value": "Yes: auto handoff when the shopper asks for a person, after 2 consecutive low-confidence replies, on repeated questions or negative sentiment; with a live agent the shopper stays in the same chat window, otherwise AI collects details in a form and emails the team a summary",
     "status": "yes",
     "source_url": "https://help.chatty.net/ai/train-ai/ai-skills/transfer",
     "accessed": "2026-11-20",
     "evidence": "Customer asks to talk to a person",
-    "note": ""
+    "note": "Plan gating differs by source: chatty.net/pricing/ shows 'AI transfer' on every plan including Free; the help center pricing table (help.chatty.net/product-roadmap/pricing) shows 'AI handover' on paid plans only."
   },
   {
     "id": "ai.custom_actions",
@@ -267,7 +267,7 @@
     "id": "ch.email",
     "category": "Channels / inbox",
     "feature": "Email",
-    "value": "Yes: Free connects 1 email address, paid plans unlimited",
+    "value": "Yes, as an inbox channel the team replies from: Free connects 1 email address, paid plans unlimited. AI replies on email only on Pro and Plus",
     "status": "yes",
     "source_url": "https://help.chatty.net/live-chat/channels/email",
     "accessed": "2026-11-20",
@@ -278,7 +278,7 @@
     "id": "ch.instagram",
     "category": "Channels / inbox",
     "feature": "Instagram DMs",
-    "value": "Yes: Instagram business account DMs in the Chatty inbox",
+    "value": "Yes: Instagram business account DMs in the Chatty inbox, answered by the team. Basic and up per chatty.net/pricing/ (No on Free). AI replies here only on Pro and Plus",
     "status": "yes",
     "source_url": "https://help.chatty.net/live-chat/channels/facebook-messenger-instagram",
     "accessed": "2026-11-20",
@@ -289,7 +289,7 @@
     "id": "ch.messenger",
     "category": "Channels / inbox",
     "feature": "Facebook Messenger",
-    "value": "Yes: Messenger in the Chatty inbox",
+    "value": "Yes: Facebook Messenger in the Chatty inbox, answered by the team. Basic and up per chatty.net/pricing/ (No on Free). AI replies here only on Pro and Plus",
     "status": "yes",
     "source_url": "https://help.chatty.net/live-chat/channels/facebook-messenger-instagram",
     "accessed": "2026-11-20",
@@ -300,7 +300,7 @@
     "id": "ch.whatsapp",
     "category": "Channels / inbox",
     "feature": "WhatsApp",
-    "value": "Yes: WhatsApp Business numbers in the Chatty inbox (multiple numbers supported)",
+    "value": "Yes: WhatsApp Business numbers in the Chatty inbox (multiple numbers supported), answered by the team. Basic and up per chatty.net/pricing/ (No on Free). AI replies here only on Pro and Plus",
     "status": "yes",
     "source_url": "https://help.chatty.net/live-chat/channels/whatsapp",
     "accessed": "2026-11-20",
@@ -333,12 +333,12 @@
     "id": "ch.shared_inbox",
     "category": "Channels / inbox",
     "feature": "Shared team inbox",
-    "value": "Yes: live chat, email, Messenger, Instagram and WhatsApp in one inbox with auto chat assignment; multi-store unified inbox on Plus",
+    "value": "Yes: live chat, email, Messenger, Instagram and WhatsApp in one team inbox with auto chat assignment; Messenger, Instagram, WhatsApp and extra emails need a paid plan, AI on those channels needs Pro or Plus; multi-store unified inbox on Plus",
     "status": "yes",
     "source_url": "https://help.chatty.net/live-chat/channels",
     "accessed": "2026-11-20",
     "evidence": "You can manage all messages from email, Facebook Messenger, Instagram, and WhatsApp right in Chatty, alongside your live chat conversations.",
-    "note": "Multi-store Unified Inbox is Plus only (help.chatty.net/live-chat/inbox/unified-inbox)."
+    "note": "Listing shows 'Multi-channel inbox' under Basic. Multi-store Unified Inbox is Plus only (help.chatty.net/live-chat/inbox/unified-inbox)."
   },
   {
     "id": "ch.mobile_app",
@@ -443,12 +443,12 @@
     "id": "other.analytics",
     "category": "Other",
     "feature": "Analytics",
-    "value": "Yes: Analytics with six tabs (Sales, Multi-channel, Operations & Team and more); Free sees Overview only; Pro and Plus add detailed breakdowns and export; chat events can be sent to GA4",
+    "value": "Yes: Analytics with six tabs (Overview, Human agent, AI agent, Sales, Customer intents, FAQs); Free sees Overview only; Basic and up see every tab; report export on Pro and Plus. Chat events can be sent to GA4 with the Storefront SDK",
     "status": "yes",
     "source_url": "https://help.chatty.net/analytics",
     "accessed": "2026-11-20",
     "evidence": "Free: Overview tab only. The other tabs stay blurred behind an Upgrade link.",
-    "note": "Listing: Basic 'Basic analytics', Pro 'Advanced analytics'."
+    "note": "Listing: Basic 'Basic analytics', Pro 'Advanced analytics'. GA4: help.chatty.net/sdk/events (merchant adds a code snippet)."
   },
   {
     "id": "rating.shopify_app_store",
@@ -470,7 +470,7 @@
     "source_url": "https://www.g2.com/products/chatty/reviews",
     "accessed": "2026-11-20",
     "evidence": "",
-    "note": "Not checked live on 2026-11-20. G2 blocked automated access."
+    "note": "G2 returned HTTP 403 to curl and WebFetch on 2026-11-20. A web search summary reported 4.8 stars from 88 reviews, but it could not be confirmed on the G2 page, so it is not used."
   },
   {
     "id": "extra.spending_cap",

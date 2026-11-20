@@ -37,21 +37,22 @@ Every URL used in the data files, grouped by app. All pages were read on the dat
 
 - https://apps.shopify.com/tidio-chat (accessed 2026-11-20). Used for: pricing.plans, pricing.entry_paid, ch.shared_inbox, other.integrations, rating.shopify_app_store
 - https://help.tidio.com/articles/analytics-section/ (accessed 2026-11-20). Used for: other.analytics
-- https://help.tidio.com/articles/conversion-rate/ (accessed 2026-11-20). Used for: attr.revenue_report, attr.method
+- https://help.tidio.com/articles/conversion-rate/ (accessed 2026-11-20). Used for: attr.revenue_report, attr.method, attr.order_tag
+- https://help.tidio.com/articles/instagram-facebook-comments/ (accessed 2026-11-20). Used for: ch.instagram
 - https://help.tidio.com/articles/lyro-a-quick-setup/ (accessed 2026-11-20). Used for: setup.time
 - https://help.tidio.com/articles/lyro-action-templates/ (accessed 2026-11-20). Used for: ai.order_tracking
 - https://help.tidio.com/articles/lyro-actions/ (accessed 2026-11-20). Used for: ai.returns_refunds
 - https://help.tidio.com/articles/lyro-data-sources/ (accessed 2026-11-20). Used for: ai.knowledge_sources
+- https://help.tidio.com/articles/lyro-main/ (accessed 2026-11-20). Used for: ai.human_handover
 - https://help.tidio.com/articles/lyro-multilanguage-support/ (accessed 2026-11-20). Used for: ai.languages
 - https://help.tidio.com/articles/lyro-proactive-roles/ (accessed 2026-11-20). Used for: ai.proactive_messages
 - https://help.tidio.com/articles/manage-shopify-orders/ (accessed 2026-11-20). Used for: extra.shopify_order_actions
 - https://help.tidio.com/articles/managing-agents/ (accessed 2026-11-20). Used for: pricing.seats
 - https://help.tidio.com/articles/monthly-conversations-limit/ (accessed 2026-11-20). Used for: pricing.ai_overage, extra.pricing_change_2026_11
-- https://help.tidio.com/articles/product-recs-shopify/ (accessed 2026-11-20). Used for: ai.product_recommendation, ai.add_to_cart
-- https://help.tidio.com/articles/the-channels-section/ (accessed 2026-11-20). Used for: ch.instagram
+- https://help.tidio.com/articles/product-recs-shopify/ (accessed 2026-11-20). Used for: ai.product_recommendation, ai.add_to_cart, ai.checkout_link
 - https://help.tidio.com/sections/install-tidio/ (accessed 2026-11-20). Used for: plat.other_platforms
-- https://www.tidio.com/lyro/ (accessed 2026-11-20). Used for: ai.human_handover, extra.resolution_rate_claim
-- https://www.tidio.com/pricing/ (accessed 2026-11-20). Used for: pricing.free_plan, pricing.trial, pricing.ai_unit, pricing.ai_included, ai.channels, ai.custom_actions, ch.live_chat, ch.email, ch.messenger, ch.whatsapp, ch.voice, ch.mobile_app, setup.onboarding, other.helpdesk_ticketing, other.faq_help_center, rating.g2, extra.flows_addon
+- https://www.tidio.com/lyro/ (accessed 2026-11-20). Used for: extra.resolution_rate_claim
+- https://www.tidio.com/pricing/ (accessed 2026-11-20). Used for: pricing.free_plan, pricing.trial, pricing.ai_unit, pricing.ai_included, ai.channels, ai.custom_actions, ch.live_chat, ch.email, ch.messenger, ch.whatsapp, ch.sms, ch.voice, ch.mobile_app, setup.onboarding, other.helpdesk_ticketing, other.faq_help_center, rating.g2, extra.flows_addon
 - https://www.tidio.com/shopify/ (accessed 2026-11-20). Used for: ai.discount_codes, plat.shopify, plat.shopify_plus
 
 ## Zipchat
@@ -61,10 +62,9 @@ Every URL used in the data files, grouped by app. All pages were read on the dat
 - https://docs.zipchat.ai/llms-full.txt (accessed 2026-11-20). Used for: ai.human_handover, ch.live_chat, ch.email, ch.sms, ch.shared_inbox, ch.mobile_app, plat.shopify_plus
 - https://docs.zipchat.ai/settings-tracking-and-security/analytics-and-roi (accessed 2026-11-20). Used for: attr.revenue_report, other.analytics
 - https://docs.zipchat.ai/settings-tracking-and-security/tracking-and-attribution (accessed 2026-11-20). Used for: attr.method, attr.order_tag
-- https://www.g2.com/products/zipchat-ai/reviews (accessed 2026-11-20). Used for: rating.g2
 - https://www.zipchat.ai/changelog (accessed 2026-11-20). Used for: extra.ai_search
 - https://www.zipchat.ai/integrations/shopify (accessed 2026-11-20). Used for: ai.product_recommendation, ai.add_to_cart, ai.checkout_link, ai.order_tracking, ai.returns_refunds, ai.discount_codes
-- https://www.zipchat.ai/llm-info (accessed 2026-11-20). Used for: pricing.plans, ai.channels, ai.custom_actions, ai.proactive_messages, ch.instagram, ch.messenger, ch.whatsapp, ch.voice, plat.shopify, plat.other_platforms, other.helpdesk_ticketing, other.integrations, extra.comment_moderation
+- https://www.zipchat.ai/llm-info (accessed 2026-11-20). Used for: pricing.plans, ai.channels, ai.custom_actions, ai.proactive_messages, ch.instagram, ch.messenger, ch.whatsapp, ch.voice, plat.shopify, plat.other_platforms, other.helpdesk_ticketing, other.integrations, rating.g2, extra.comment_moderation
 - https://www.zipchat.ai/pricing (accessed 2026-11-20). Used for: pricing.trial, pricing.entry_paid, pricing.ai_unit, pricing.ai_included, pricing.ai_overage, pricing.seats, ai.languages, setup.onboarding, setup.time, extra.unlimited_plan, extra.multi_store
 
 ## Gorgias
@@ -72,9 +72,9 @@ Every URL used in the data files, grouped by app. All pages were read on the dat
 - https://apps.shopify.com/helpdesk (accessed 2026-11-20). Used for: ch.shared_inbox, other.helpdesk_ticketing, rating.shopify_app_store
 - https://docs.gorgias.com/en-US/add-your-brands-content-for-ai-agent-1216498 (accessed 2026-11-20). Used for: ai.knowledge_sources
 - https://docs.gorgias.com/en-US/ai-agent-actions-make-changes-to-shopify-orders-757792 (accessed 2026-11-20). Used for: ai.returns_refunds
-- https://docs.gorgias.com/en-US/ai-agent-explained-497772 (accessed 2026-11-20). Used for: ai.channels, ai.languages, ch.instagram, ch.messenger
+- https://docs.gorgias.com/en-US/ai-agent-explained-497772 (accessed 2026-11-20). Used for: ai.channels, ai.languages
+- https://docs.gorgias.com/en-US/connect-facebook-and-instagram-to-gorgias-7996758 (accessed 2026-11-20). Used for: ch.instagram, ch.messenger
 - https://docs.gorgias.com/en-US/customize-how-ai-agent-hands-over-to-your-team-6008591 (accessed 2026-11-20). Used for: ai.human_handover
-- https://docs.gorgias.com/en-US/enable-ai-agent-on-whatsapp-8087873 (accessed 2026-11-20). Used for: ch.whatsapp
 - https://docs.gorgias.com/en-US/gorgias-mobile-app-82015 (accessed 2026-11-20). Used for: ch.mobile_app
 - https://docs.gorgias.com/en-US/how-metrics-are-calculated-ai-and-automation-5666070 (accessed 2026-11-20). Used for: attr.method
 - https://docs.gorgias.com/en-US/how-shopping-assistant-recommends-products-4996877 (accessed 2026-11-20). Used for: ai.product_recommendation, ai.add_to_cart
@@ -83,6 +83,7 @@ Every URL used in the data files, grouped by app. All pages were read on the dat
 - https://docs.gorgias.com/en-US/revenue-statistics-81744 (accessed 2026-11-20). Used for: attr.revenue_report
 - https://docs.gorgias.com/en-US/set-up-and-go-live-with-ai-agent-500219 (accessed 2026-11-20). Used for: plat.shopify
 - https://docs.gorgias.com/en-US/shopping-assistant-explained-1216108 (accessed 2026-11-20). Used for: ai.proactive_messages, extra.shopping_assistant_legacy
+- https://docs.gorgias.com/en-US/whatsapp-manage-integration-7996759 (accessed 2026-11-20). Used for: ch.whatsapp
 - https://www.g2.com/products/gorgias/reviews (accessed 2026-11-20). Used for: rating.g2
 - https://www.gorgias.com/ai-agent (accessed 2026-11-20). Used for: ai.order_tracking, ai.custom_actions, setup.time
 - https://www.gorgias.com/onboarding (accessed 2026-11-20). Used for: setup.onboarding

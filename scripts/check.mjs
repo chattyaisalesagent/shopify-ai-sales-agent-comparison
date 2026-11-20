@@ -1,7 +1,7 @@
 // Fails (exit 1) if:
 // - a non-unknown cell lacks source_url or accessed
 // - any text file contains an em dash (U+2014) or middle dot (U+00B7)
-// - any README table cell is empty or a table row has the wrong cell count
+// - any table cell in README.md or compare/*.md is empty or a table row has the wrong cell count
 // Usage: node scripts/check.mjs
 import { readFileSync, readdirSync, statSync } from 'node:fs';
 import { join, dirname, relative } from 'node:path';
@@ -50,25 +50,32 @@ for (const file of walk(root)) {
   });
 }
 
-// 3. README tables
-const lines = readFileSync(join(root, 'README.md'), 'utf8').split('\n');
-let width = null;
-lines.forEach((line, n) => {
-  const t = line.trim();
-  if (!t.startsWith('|')) {
-    width = null;
-    return;
-  }
-  const cells = t.replace(/^\|/, '').replace(/\|$/, '').split('|').map((s) => s.trim());
-  if (width === null) width = cells.length;
-  if (cells.length !== width) errors.push(`README.md:${n + 1}: ${cells.length} cells, expected ${width}`);
-  cells.forEach((c, k) => {
-    if (c === '') errors.push(`README.md:${n + 1}: empty cell ${k + 1}`);
+// 3. Tables in README.md and compare/*.md
+const compareDir = join(root, 'compare');
+const tableFiles = ['README.md'];
+try {
+  for (const f of readdirSync(compareDir)) if (f.endsWith('.md')) tableFiles.push(join('compare', f));
+} catch {}
+for (const file of tableFiles) {
+  const lines = readFileSync(join(root, file), 'utf8').split('\n');
+  let width = null;
+  lines.forEach((line, n) => {
+    const t = line.trim();
+    if (!t.startsWith('|')) {
+      width = null;
+      return;
+    }
+    const cells = t.replace(/^\|/, '').replace(/\|$/, '').split('|').map((s) => s.trim());
+    if (width === null) width = cells.length;
+    if (cells.length !== width) errors.push(`${file}:${n + 1}: ${cells.length} cells, expected ${width}`);
+    cells.forEach((c, k) => {
+      if (c === '') errors.push(`${file}:${n + 1}: empty cell ${k + 1}`);
+    });
   });
-});
+}
 
 if (errors.length) {
   console.error(`check failed (${errors.length}):\n` + errors.map((e) => `- ${e}`).join('\n'));
   process.exit(1);
 }
-console.log(`check passed: ${cmp.rows.length} rows, sources, characters and README tables OK.`);
+console.log(`check passed: ${cmp.rows.length} rows, sources, characters and tables in ${tableFiles.length} files OK.`);

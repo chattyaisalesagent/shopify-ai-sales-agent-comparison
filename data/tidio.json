@@ -102,11 +102,11 @@
     "id": "ai.product_recommendation",
     "category": "AI agent",
     "feature": "Product recommendations",
-    "value": "Yes: Lyro recommends synced Shopify products as product cards, stock-aware; included from Lyro AI Starter",
+    "value": "Yes: Lyro recommends synced Shopify products as product cards, stock-aware; on any plan with Lyro AI (or during the 7-day trial); works in the chat widget, Messenger, Instagram, WhatsApp and email tickets",
     "status": "yes",
     "source_url": "https://help.tidio.com/articles/product-recs-shopify/",
     "accessed": "2026-11-20",
-    "evidence": "Sync your Shopify products so Lyro can recommend them",
+    "evidence": "The feature is currently available to Tidio users who: Have Tidio integrated via the Shopify app Are on a plan with Lyro AI (or still on their free 7-day trial) Have Lyro activated in their Tidio project",
     "note": ""
   },
   {
@@ -124,12 +124,12 @@
     "id": "ai.checkout_link",
     "category": "AI agent",
     "feature": "Checkout link",
-    "value": "No source found describing Lyro sending a checkout link",
+    "value": "Not documented: help center describes an Add to cart button (variant picker) or View details button on Lyro product cards; no mention of Lyro sending a checkout or cart link",
     "status": "unknown",
-    "source_url": "",
+    "source_url": "https://help.tidio.com/articles/product-recs-shopify/",
     "accessed": "2026-11-20",
     "evidence": "",
-    "note": ""
+    "note": "Searched Lyro, Product Recommendations, Actions and Action templates articles on 2026-11-20; no checkout link found."
   },
   {
     "id": "ai.order_tracking",
@@ -140,7 +140,7 @@
     "source_url": "https://help.tidio.com/articles/lyro-action-templates/",
     "accessed": "2026-11-20",
     "evidence": "With this template, Lyro connects with your Shopify store's API and is able to provide your customer with details regarding their order, including the URL for tracking their package.",
-    "note": ""
+    "note": "Address change: help.tidio.com/articles/lyro-actions/ (\"Lyro updates only address line 1, the province, the zip code and the city - and only within the same country as the original order.\")"
   },
   {
     "id": "ai.returns_refunds",
@@ -168,12 +168,12 @@
     "id": "ai.knowledge_sources",
     "category": "AI agent",
     "feature": "Knowledge sources",
-    "value": "Websites, Q&As, CSV and PDF files, Zendesk articles, Tidio Help Center articles, product catalog (Shopify, WooCommerce, Google Merchant feed, OpenAPI), Shopify metafields",
+    "value": "Websites, Q&As, CSV and PDF files, Zendesk articles, Tidio Help Center articles, product catalog (Shopify, WooCommerce sync), Shopify metafields. Product feed upload (Google Merchant Center XML) and API upload are Plus only",
     "status": "yes",
     "source_url": "https://help.tidio.com/articles/lyro-data-sources/",
     "accessed": "2026-11-20",
-    "evidence": "Add and manage Lyro's knowledge: websites, Q&As, CSV and PDF files, Zendesk articles, your Help Center articles and your product catalog.",
-    "note": ""
+    "evidence": "Adding knowledge by importing files (CSV, PDF) ... Importing Zendesk articles, and more ... Synchronizing your webstore products ... Using your Help Center articles ... Please note that the Product feed upload option is only available to Plus subscribers",
+    "note": "Metafields: help.tidio.com/articles/product-recs-shopify/ (Letting Lyro read your Shopify metafields). API upload of data sources requires Plus with OpenAPI access."
   },
   {
     "id": "ai.languages",
@@ -183,7 +183,7 @@
     "status": "yes",
     "source_url": "https://help.tidio.com/articles/lyro-multilanguage-support/",
     "accessed": "2026-11-20",
-    "evidence": "Lyro answers in 51 languages",
+    "evidence": "There are currently fifty-one (51) supported languages, English included",
     "note": ""
   },
   {
@@ -192,31 +192,31 @@
     "feature": "Human handover",
     "value": "Yes: handoff and escalation rules; Lyro can answer always or only when agents are offline; handed-over chats continue in the same conversation",
     "status": "yes",
-    "source_url": "https://www.tidio.com/lyro/",
+    "source_url": "https://help.tidio.com/articles/lyro-main/",
     "accessed": "2026-11-20",
-    "evidence": "Set flexible handoff and escalation rules to chat personally with high value customers or discuss sensitive topics.",
-    "note": ""
+    "evidence": "Decide whether Lyro responds always, or only when your agents are offline",
+    "note": "Handoff and escalation rules: tidio.com/lyro/ (\"Set flexible handoff and escalation rules to chat personally with high value customers or discuss sensitive topics.\")"
   },
   {
     "id": "ai.custom_actions",
     "category": "AI agent",
     "feature": "Custom actions",
-    "value": "Yes: Lyro Smart Actions (API calls, Shopify steps) and MCP tools. Starter 3 + 3 MCP, Growth 5 + 5, Plus 10 + 10, Premium custom",
+    "value": "Yes: Lyro Smart Actions (API calls, Shopify steps) and MCP tools. Free and Human only 1 + 1 MCP, Starter 3 + 3, Growth 5 + 5, Plus 10 + 10, Premium custom",
     "status": "yes",
     "source_url": "https://www.tidio.com/pricing/",
     "accessed": "2026-11-20",
-    "evidence": "3 Lyro Smart Actions + 3 MCP tools",
-    "note": ""
+    "evidence": "3 Lyro Smart Actions + 3 MCP tools ... 5 Lyro Smart Actions + 5 MCP tools ... 10 Lyro Smart Actions + 10 MCP tools",
+    "note": "Free and Human only plans: \"1 Smart Action + 1 MCP tool\" (Shopify App Store listing)."
   },
   {
     "id": "ai.proactive_messages",
     "category": "AI agent",
     "feature": "Proactive messages",
-    "value": "Yes: Lyro proactive roles start conversations on the website from triggers; up to 5 active (10 on Plus), shared with Guidance limit. Flows also start proactive chats",
+    "value": "Yes: Lyro proactive roles start conversations from triggers, in the website widget only (not Messenger, Instagram, WhatsApp or email); up to 5 active (10 on Plus), shared with the Guidance limit; the first message uses the Flows quota. Flows also start proactive chats",
     "status": "yes",
     "source_url": "https://help.tidio.com/articles/lyro-proactive-roles/",
     "accessed": "2026-11-20",
-    "evidence": "Let Lyro start conversations on your website with proactive roles",
+    "evidence": "Active proactive roles count toward the same limit as your active Guidance (including your handoff guidance): up to 5, or up to 10 on the Plus plan. ... Proactive roles only work inside the Tidio widget ... Sending this message consumes your Flows quota",
     "note": ""
   },
   {
@@ -245,12 +245,12 @@
     "id": "attr.order_tag",
     "category": "Sales attribution",
     "feature": "Order tag in Shopify admin",
-    "value": "No source found describing Tidio tagging attributed orders in Shopify admin; reports live in Tidio Analytics",
+    "value": "Not documented: help center describes assisted sales only inside Tidio Analytics (Overview, Sales, Flows); no mention of tags, notes or metafields on attributed orders in Shopify admin",
     "status": "unknown",
-    "source_url": "",
+    "source_url": "https://help.tidio.com/articles/conversion-rate/",
     "accessed": "2026-11-20",
     "evidence": "",
-    "note": ""
+    "note": "Searched conversion-rate, Shopify FAQ, Manage Shopify orders and tidio.com/shopify on 2026-11-20."
   },
   {
     "id": "ch.live_chat",
@@ -278,12 +278,12 @@
     "id": "ch.instagram",
     "category": "Channels / inbox",
     "feature": "Instagram",
-    "value": "Yes: messages and comments",
+    "value": "Yes: direct messages, story mentions and replies, and post comments (comments arrive as tickets)",
     "status": "yes",
-    "source_url": "https://help.tidio.com/articles/the-channels-section/",
+    "source_url": "https://help.tidio.com/articles/instagram-facebook-comments/",
     "accessed": "2026-11-20",
-    "evidence": "Live Chat, Email, Facebook, Instagram and WhatsApp",
-    "note": ""
+    "evidence": "In Tidio, you can integrate with your Facebook Pages and Instagram profiles, and see any comments that users leave under your posts. These comments will become available in your Tidio inbox as incoming tickets",
+    "note": "Instagram DMs, story mentions, story replies and comments: help.tidio.com/articles/integration-instagram/"
   },
   {
     "id": "ch.messenger",
@@ -311,12 +311,12 @@
     "id": "ch.sms",
     "category": "Channels / inbox",
     "feature": "SMS",
-    "value": "No SMS channel listed on pricing or help center channel pages",
+    "value": "Not listed: Tidio lists team channels as live chat, email, Messenger, Instagram and WhatsApp, plus the Voice add-on; no SMS channel found",
     "status": "unknown",
-    "source_url": "",
+    "source_url": "https://www.tidio.com/pricing/",
     "accessed": "2026-11-20",
     "evidence": "",
-    "note": "Channels listed by Tidio: live chat, email, Messenger, Instagram, WhatsApp, Voice add-on."
+    "note": "Pricing FAQ: \"Your team can answer customers in: Live chat on your website Email Messenger, Instagram, and WhatsApp\". No explicit statement that SMS is unavailable, so kept unknown."
   },
   {
     "id": "ch.voice",
@@ -366,11 +366,11 @@
     "id": "plat.other_platforms",
     "category": "Platform",
     "feature": "Other platforms",
-    "value": "Yes: WordPress, WooCommerce, BigCommerce, Adobe Commerce, Squarespace, PrestaShop, Wix-style builders and any site via JavaScript",
+    "value": "Yes: WordPress, WooCommerce, BigCommerce, Adobe Commerce, Squarespace, PrestaShop, Wix, Ecwid, OpenCart and any site via JavaScript",
     "status": "yes",
     "source_url": "https://help.tidio.com/sections/install-tidio/",
     "accessed": "2026-11-20",
-    "evidence": "Install Tidio on BigCommerce ... Install Tidio on Adobe Commerce (previously Magento) ... Install Tidio on Squarespace",
+    "evidence": "Install Tidio with the app or plugin for Shopify, WordPress, WooCommerce or BigCommerce, or paste the JavaScript code on any other website.",
     "note": ""
   },
   {
@@ -491,7 +491,7 @@
     "status": "yes",
     "source_url": "https://help.tidio.com/articles/manage-shopify-orders/",
     "accessed": "2026-11-20",
-    "evidence": "cancel, refund or edit them, or change their shipping address, without leaving Tidio",
+    "evidence": "You can cancel, refund and edit orders, and change their shipping address.",
     "note": ""
   },
   {

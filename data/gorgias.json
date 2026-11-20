@@ -129,7 +129,7 @@
     "source_url": "",
     "accessed": "2026-11-20",
     "evidence": "",
-    "note": "Not found on pricing, AI Agent page or the Shopping Assistant docs checked on 2026-11-20."
+    "note": "Not found on pricing, AI Agent page, Shopping Assistant docs or the Gorgias blog post 'Guide shoppers to checkout', rechecked 2026-11-20. Docs only describe product cards with add to cart (chat) and product page links (email, SMS)."
   },
   {
     "id": "ai.order_tracking",
@@ -168,8 +168,8 @@
     "id": "ai.knowledge_sources",
     "category": "AI agent",
     "feature": "Knowledge sources",
-    "value": "Help center articles, store website, URLs, documents, guidance (up to 100 enabled), Shopify catalog synced automatically, custom product information. Macros are not used by AI Agent.",
-    "status": "yes",
+    "value": "Help center articles, store website, URLs, documents, guidance (up to 100 enabled), Shopify catalog synced automatically, custom product information. Macros are not used by AI Agent. Part of the AI Agent add-on.",
+    "status": "paid_addon",
     "source_url": "https://docs.gorgias.com/en-US/add-your-brands-content-for-ai-agent-1216498",
     "accessed": "2026-11-20",
     "evidence": "You can add content from various sources, including your help center articles, URLs, documents, guidance, and your store's website",
@@ -179,8 +179,8 @@
     "id": "ai.languages",
     "category": "AI agent",
     "feature": "AI languages",
-    "value": "80+ languages; replies in the shopper's language by default or one fixed language.",
-    "status": "yes",
+    "value": "80+ languages; replies in the shopper's language by default or one fixed language. Part of the AI Agent add-on.",
+    "status": "paid_addon",
     "source_url": "https://docs.gorgias.com/en-US/ai-agent-explained-497772",
     "accessed": "2026-11-20",
     "evidence": "AI Agent supports over 80 languages and replies in any of them, even when your knowledge isn't translated.",
@@ -190,8 +190,8 @@
     "id": "ai.human_handover",
     "category": "AI agent",
     "feature": "Human handover",
-    "value": "Yes: hands over on low confidence, sensitive topics, frustration, and merchant-set handover topics.",
-    "status": "yes",
+    "value": "Yes: hands over on low confidence, sensitive topics, frustration, and merchant-set handover topics. Part of the AI Agent add-on.",
+    "status": "paid_addon",
     "source_url": "https://docs.gorgias.com/en-US/customize-how-ai-agent-hands-over-to-your-team-6008591",
     "accessed": "2026-11-20",
     "evidence": "AI Agent will hand over a conversation to your team for three reasons: built-in conversation signals, topics you've configured, and cases where it can't generate a reliable answer.",
@@ -201,8 +201,8 @@
     "id": "ai.custom_actions",
     "category": "AI agent",
     "feature": "Custom actions",
-    "value": "Yes: custom actions to any API or app, 130+ actions in library. Actions from Basic plan.",
-    "status": "yes",
+    "value": "Yes: custom actions to any API or app, 130+ actions in library. Part of the AI Agent add-on; Actions from Basic plan.",
+    "status": "paid_addon",
     "source_url": "https://www.gorgias.com/ai-agent",
     "accessed": "2026-11-20",
     "evidence": "130+",
@@ -250,7 +250,7 @@
     "source_url": "",
     "accessed": "2026-11-20",
     "evidence": "",
-    "note": "An 'Add to order note' Action exists for AI Agent workflows, but no doc ties it to revenue attribution."
+    "note": "An 'Add to order note' Action exists for AI Agent workflows (merchant-configured note text), but no doc ties it to revenue attribution. AI Agent tags (ai_close, ai_handover etc.) are applied to Gorgias tickets, not Shopify orders. Rechecked 2026-11-20."
   },
   {
     "id": "ch.live_chat",
@@ -278,34 +278,34 @@
     "id": "ch.instagram",
     "category": "Channels",
     "feature": "Instagram",
-    "value": "Yes (DMs and comments), all plans",
+    "value": "Yes (DMs, comments, mentions, ad replies), all Helpdesk plans. AI Agent on Instagram DMs needs the AI Agent add-on.",
     "status": "yes",
-    "source_url": "https://docs.gorgias.com/en-US/ai-agent-explained-497772",
+    "source_url": "https://docs.gorgias.com/en-US/connect-facebook-and-instagram-to-gorgias-7996758",
     "accessed": "2026-11-20",
-    "evidence": "social channels including Instagram DMs, Facebook Messenger, and WhatsApp",
-    "note": "Compare plans lists 'social' on all plans."
+    "evidence": "agents can reply to posts, comments, mentions, ad replies, Messenger messages, and Instagram DMs from the helpdesk",
+    "note": "Doc header: 'All Helpdesk plans'. AI Agent on Instagram and Messenger doc header: 'All plans with AI Agent'."
   },
   {
     "id": "ch.messenger",
     "category": "Channels",
     "feature": "Messenger",
-    "value": "Yes, all plans",
+    "value": "Yes, all Helpdesk plans. AI Agent on Messenger needs the AI Agent add-on.",
     "status": "yes",
-    "source_url": "https://docs.gorgias.com/en-US/ai-agent-explained-497772",
+    "source_url": "https://docs.gorgias.com/en-US/connect-facebook-and-instagram-to-gorgias-7996758",
     "accessed": "2026-11-20",
-    "evidence": "social channels including Instagram DMs, Facebook Messenger, and WhatsApp",
-    "note": ""
+    "evidence": "agents can reply to posts, comments, mentions, ad replies, Messenger messages, and Instagram DMs from the helpdesk",
+    "note": "Doc header: 'All Helpdesk plans'. Instagram and Messenger share one AI Agent toggle."
   },
   {
     "id": "ch.whatsapp",
     "category": "Channels",
     "feature": "WhatsApp",
-    "value": "Yes; AI Agent can be enabled on WhatsApp",
+    "value": "Yes, all Helpdesk plans. AI Agent on WhatsApp needs the AI Agent add-on.",
     "status": "yes",
-    "source_url": "https://docs.gorgias.com/en-US/enable-ai-agent-on-whatsapp-8087873",
+    "source_url": "https://docs.gorgias.com/en-US/whatsapp-manage-integration-7996759",
     "accessed": "2026-11-20",
-    "evidence": "Deploying AI Agent on WhatsApp means that it can automatically help shoppers browse, buy and get support when they message your business.",
-    "note": ""
+    "evidence": "All Helpdesk plans",
+    "note": "Header of the WhatsApp integration doc. Enable AI Agent on WhatsApp doc header: 'All plans with AI Agent'."
   },
   {
     "id": "ch.sms",
@@ -470,7 +470,7 @@
     "source_url": "https://www.g2.com/products/gorgias/reviews",
     "accessed": "2026-11-20",
     "evidence": "",
-    "note": "Third-party articles cite about 4.6/5; not used because the G2 page could not be read."
+    "note": "G2 returned HTTP 403 again on 2026-11-20. Third-party articles cite about 4.6/5; not used because the G2 page could not be read."
   },
   {
     "id": "extra.ai_double_billing",

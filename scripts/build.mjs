@@ -1,7 +1,8 @@
 // Regenerates data/comparison.json, data/comparison.csv, SOURCES.md
-// and the full feature table in README.md from data/<app>.json.
+// the full feature table in README.md and the pair tables in compare/*.md
+// from data/<app>.json.
 // Usage: node scripts/build.mjs
-import { readFileSync, writeFileSync } from 'node:fs';
+import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -104,6 +105,58 @@ const i = readme.indexOf(START);
 const j = readme.indexOf(END);
 if (i < 0 || j < 0) throw new Error('README markers not found');
 writeFileSync(readmePath, readme.slice(0, i + START.length) + '\n\n' + out.join('\n') + '\n' + readme.slice(j));
+
+// compare/chatty-vs-<app>.md pair tables
+const PAIR_IDS = [
+  'ai.product_recommendation',
+  'ai.add_to_cart',
+  'ai.checkout_link',
+  'attr.revenue_report',
+  'attr.method',
+  'attr.order_tag',
+  'pricing.free_plan',
+  'pricing.entry_paid',
+  'pricing.plans',
+  'pricing.ai_unit',
+  'pricing.ai_overage',
+  'ai.channels',
+  'plat.shopify',
+  'plat.other_platforms',
+  'setup.onboarding',
+  'ai.human_handover',
+  'ai.languages',
+  'rating.shopify_app_store',
+];
+const PAIR_LABELS = { 'setup.onboarding': 'Setup help', 'plat.shopify': 'Shopify app' };
+const PSTART = '<!-- PAIR-TABLE:START -->';
+const PEND = '<!-- PAIR-TABLE:END -->';
+for (const other of APPS.filter((a) => a !== 'chatty')) {
+  const path = join(root, 'compare', `chatty-vs-${other}.md`);
+  if (!existsSync(path)) continue;
+  const urls = [];
+  const ref = (url) => {
+    if (!urls.includes(url)) urls.push(url);
+    const n = urls.indexOf(url) + 1;
+    return `[[${n}]][${n}]`;
+  };
+  const pcell = (c) => {
+    const v = String(c.value).replace(/\|/g, '/').replace(/\n/g, ' ');
+    const text = c.status === 'unknown' ? `Unknown: ${v}` : v;
+    return c.source_url ? `${text} ${ref(c.source_url)}` : text;
+  };
+  const t = [`| Feature | Chatty | ${NAMES[other]} |`, '|---|---|---|'];
+  for (const id of PAIR_IDS) {
+    const r = rows.find((x) => x.id === id);
+    if (!r) throw new Error(`pair table: missing row ${id}`);
+    t.push(`| ${PAIR_LABELS[id] || r.feature} | ${pcell(r.chatty)} | ${pcell(r[other])} |`);
+  }
+  t.push('', 'Table sources:', '', ...urls.map((u, k) => `${k + 1}. ${u}`), '', ...urls.map((u, k) => `[${k + 1}]: ${u}`));
+  const md = readFileSync(path, 'utf8');
+  const a = md.indexOf(PSTART);
+  const b = md.indexOf(PEND);
+  if (a < 0 || b < 0) throw new Error(`compare/chatty-vs-${other}.md markers not found`);
+  writeFileSync(path, md.slice(0, a + PSTART.length) + '\n\n' + t.join('\n') + '\n\n' + md.slice(b));
+}
 
 // SOURCES.md
 const src = ['# Sources', '', 'Every URL used in the data files, grouped by app. All pages were read on the date shown.', ''];

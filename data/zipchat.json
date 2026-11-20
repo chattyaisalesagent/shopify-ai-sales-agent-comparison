@@ -80,23 +80,23 @@
     "id": "pricing.seats",
     "category": "Pricing",
     "feature": "Team seats",
-    "value": "Unlimited team members on every plan",
+    "value": "Unlimited team members on all 4 paid plans (pricing table); not stated for the listing Free plan",
     "status": "yes",
     "source_url": "https://www.zipchat.ai/pricing",
     "accessed": "2026-11-20",
     "evidence": "Unlimited team members",
-    "note": ""
+    "note": "llm-info: \"unlimited team members and every feature on every plan\"."
   },
   {
     "id": "ai.channels",
     "category": "AI agent",
     "feature": "Channels the AI answers on",
-    "value": "Website chat, AI search, product page questions, WhatsApp, Instagram DMs, Facebook Messenger, email, Facebook and Instagram comments, on every plan including the listing Free plan. Voice in beta. No SMS, Telegram, TikTok",
+    "value": "Website chat, AI search, product page questions, WhatsApp, Instagram DMs, Facebook Messenger, email, Facebook and Instagram comments (live channels listed by Zipchat). Pricing table ticks Chat Widget, Emails, WhatsApp, Instagram, Messenger on all 4 paid plans; listing Free plan lists Chat, Emails, WhatsApp, IG, Messenger. Voice in beta. No SMS, Telegram, TikTok",
     "status": "yes",
     "source_url": "https://www.zipchat.ai/llm-info",
     "accessed": "2026-11-20",
     "evidence": "Live channels: Website chat Agentic AI Search AI Product Questions on product pages WhatsApp Instagram DMs Facebook Messenger Email Facebook comments Instagram comments",
-    "note": "Listing Free plan: \"Chat, Emails, WhatsApp, IG, Messenger\". Docs: \"It does not answer on SMS, Telegram or TikTok.\""
+    "note": "Listing Free plan: \"Chat, Emails, WhatsApp, IG, Messenger\". Pricing table has no row for comments, AI Search channel or product page questions per plan beyond \"Agentic Search\" ticked on all 4 paid plans. Docs: \"It does not answer on SMS, Telegram or TikTok.\""
   },
   {
     "id": "ai.product_recommendation",
@@ -129,7 +129,7 @@
     "source_url": "https://www.zipchat.ai/integrations/shopify",
     "accessed": "2026-11-20",
     "evidence": "Add to cart in the chat is opt-in, and it is not checkout.",
-    "note": "WhatsApp cart recovery template can include a link back to the cart (docs), which is a campaign, not an in-chat checkout link."
+    "note": "Rechecked docs (llms-full.txt), Shopify integration page, llm-info, listing: no mention of the AI sending a checkout or cart permalink. WhatsApp cart recovery template \"can include a link back to the cart\" (docs), which is a campaign, not an in-chat checkout link."
   },
   {
     "id": "ai.order_tracking",
@@ -151,7 +151,7 @@
     "source_url": "https://www.zipchat.ai/integrations/shopify",
     "accessed": "2026-11-20",
     "evidence": "Order lookup is read-only: it never cancels, edits or refunds an order. ... Returns, exchanges and order edits need an Agentic Skill connected to your tools.",
-    "note": ""
+    "note": "llm-info lists Loop Returns among \"ready connections\", but docs say: \"There is no built-in returns skill. Connect your returns or order editing app, such as Loop Returns, with a custom skill that uses its API.\""
   },
   {
     "id": "ai.discount_codes",
@@ -179,7 +179,7 @@
     "id": "ai.languages",
     "category": "AI agent",
     "feature": "AI languages",
-    "value": "Any language, auto-detected from the shopper's first message, on every plan",
+    "value": "Any language, auto-detected from the shopper's first message; \"All languages\" on all 4 paid plans",
     "status": "yes",
     "source_url": "https://www.zipchat.ai/pricing",
     "accessed": "2026-11-20",
@@ -212,7 +212,7 @@
     "id": "ai.proactive_messages",
     "category": "AI agent",
     "feature": "Proactive messages",
-    "value": "Yes on every plan: proactive website chat (time on page, scroll depth, exit intent), AI follow-ups, WhatsApp campaigns and cart recovery (Shopify)",
+    "value": "Yes: proactive website chat (time on page, scroll depth, exit intent), AI follow-ups, WhatsApp campaigns and cart recovery (Shopify). Proactive AI, AI Follow Ups and WhatsApp Marketing ticked on all 4 paid plans; not listed for the listing Free plan",
     "status": "yes",
     "source_url": "https://www.zipchat.ai/llm-info",
     "accessed": "2026-11-20",
@@ -234,7 +234,7 @@
     "id": "attr.method",
     "category": "Sales attribution",
     "feature": "Attribution method and window",
-    "value": "Last touch within a fixed 24-hour window: on store, purchase within 24h of the last message (same browser visitor ID); in WhatsApp, Instagram, Messenger, email, comments, order within 24h of clicking a link the agent sent. AI then rates influence (strongly influenced / influenced / pending / not influenced). Refunds do not remove orders. Zendesk conversations not attributed",
+    "value": "Last touch within a fixed 24-hour window: on store, purchase within 24h of the last message (same browser visitor ID); in WhatsApp, Instagram, Messenger, email, comments, order within 24h of clicking a link the agent sent. Zipchat then classifies how much the conversation influenced the purchase (strongly influenced / influenced / not influenced, pending while open). Refunds do not remove orders. Zendesk conversations not attributed",
     "status": "yes",
     "source_url": "https://docs.zipchat.ai/settings-tracking-and-security/tracking-and-attribution",
     "accessed": "2026-11-20",
@@ -250,7 +250,7 @@
     "source_url": "https://docs.zipchat.ai/settings-tracking-and-security/tracking-and-attribution",
     "accessed": "2026-11-20",
     "evidence": "Attributed sales appear in your Dashboard and Reports, and in the purchases field of the Backend API.",
-    "note": ""
+    "note": "Docs only describe UTM parameters added to links in chat responses (\"so your analytics tools can see Zipchat traffic\") and a Purchase Tracking block/pixel. No mention of Shopify order tags, notes or metafields written by Zipchat."
   },
   {
     "id": "ch.live_chat",
@@ -267,7 +267,7 @@
     "id": "ch.email",
     "category": "Channels / inbox",
     "feature": "Email",
-    "value": "Yes, AI answers forwarded support inbox, with optional draft mode; every plan",
+    "value": "Yes, AI answers forwarded support inbox, with optional draft mode. Emails ticked on all 4 paid plans and listed on the listing Free plan",
     "status": "yes",
     "source_url": "https://docs.zipchat.ai/llms-full.txt",
     "accessed": "2026-11-20",
@@ -278,29 +278,29 @@
     "id": "ch.instagram",
     "category": "Channels / inbox",
     "feature": "Instagram",
-    "value": "Yes, AI on DMs, story replies, mentions and comments; every plan",
+    "value": "Yes, AI on DMs, story replies, mentions and comments. Instagram ticked on all 4 paid plans and listed on the listing Free plan",
     "status": "yes",
     "source_url": "https://www.zipchat.ai/llm-info",
     "accessed": "2026-11-20",
     "evidence": "The agent answers Instagram DMs and Facebook Messenger conversations with the catalog, stock levels and order data.",
-    "note": ""
+    "note": "Docs: \"Zipchat answers Instagram direct messages, story replies and story mentions\" and replies to post, reel and ad comments. Per-plan availability of comment replies not stated."
   },
   {
     "id": "ch.messenger",
     "category": "Channels / inbox",
     "feature": "Messenger",
-    "value": "Yes, AI on Messenger and Facebook comments; every plan",
+    "value": "Yes, AI on Messenger and Facebook comments. Messenger ticked on all 4 paid plans and listed on the listing Free plan",
     "status": "yes",
     "source_url": "https://www.zipchat.ai/llm-info",
     "accessed": "2026-11-20",
     "evidence": "The agent answers Instagram DMs and Facebook Messenger conversations with the catalog, stock levels and order data.",
-    "note": ""
+    "note": "Per-plan availability of comment replies not stated."
   },
   {
     "id": "ch.whatsapp",
     "category": "Channels / inbox",
     "feature": "WhatsApp",
-    "value": "Yes, via WhatsApp Business Cloud API: AI replies, broadcast campaigns, cart recovery; every plan. Meta fees apply for marketing messages",
+    "value": "Yes, via WhatsApp Business Cloud API: AI replies, broadcast campaigns, cart recovery (cart recovery needs Shopify). WhatsApp on all 4 paid plans and the listing Free plan; \"WhatsApp Marketing\" ticked on all 4 paid plans. Meta fees apply for marketing messages",
     "status": "yes",
     "source_url": "https://www.zipchat.ai/llm-info",
     "accessed": "2026-11-20",
@@ -355,7 +355,7 @@
     "id": "plat.shopify",
     "category": "Platform",
     "feature": "Shopify",
-    "value": "Yes, native app, Built for Shopify; deepest integration",
+    "value": "Yes, native app with Built for Shopify badge; built in on Shopify: live product search, order lookup, discount creation, purchase tracking (Zipchat calls Shopify its deepest integration)",
     "status": "yes",
     "source_url": "https://www.zipchat.ai/llm-info",
     "accessed": "2026-11-20",
@@ -467,10 +467,10 @@
     "feature": "G2 rating",
     "value": "Not verified: G2 returned 403. Zipchat self-reports G2 4.5",
     "status": "unknown",
-    "source_url": "https://www.g2.com/products/zipchat-ai/reviews",
+    "source_url": "https://www.zipchat.ai/llm-info",
     "accessed": "2026-11-20",
     "evidence": "Ratings: Shopify App Store 4.9, G2 4.5, Capterra 4.9.",
-    "note": "Evidence quote is from zipchat.ai/llm-info, not from G2."
+    "note": "Evidence is Zipchat's self-report on llm-info. G2 page (https://www.g2.com/products/zipchat-ai/reviews) returned 403 on 2026-11-20, so rating and review count are not independently verified."
   },
   {
     "id": "extra.unlimited_plan",

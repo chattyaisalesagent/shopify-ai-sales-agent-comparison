@@ -289,12 +289,12 @@
         "note": ""
       },
       "zipchat": {
-        "value": "Unlimited team members on every plan",
+        "value": "Unlimited team members on all 4 paid plans (pricing table); not stated for the listing Free plan",
         "status": "yes",
         "source_url": "https://www.zipchat.ai/pricing",
         "evidence": "Unlimited team members",
         "accessed": "2026-11-20",
-        "note": ""
+        "note": "llm-info: \"unlimited team members and every feature on every plan\"."
       },
       "gorgias": {
         "value": "Not priced per seat. Starter 3 seats; Basic, Pro, Advanced 500 seats.",
@@ -326,12 +326,12 @@
         "note": ""
       },
       "zipchat": {
-        "value": "Website chat, AI search, product page questions, WhatsApp, Instagram DMs, Facebook Messenger, email, Facebook and Instagram comments, on every plan including the listing Free plan. Voice in beta. No SMS, Telegram, TikTok",
+        "value": "Website chat, AI search, product page questions, WhatsApp, Instagram DMs, Facebook Messenger, email, Facebook and Instagram comments (live channels listed by Zipchat). Pricing table ticks Chat Widget, Emails, WhatsApp, Instagram, Messenger on all 4 paid plans; listing Free plan lists Chat, Emails, WhatsApp, IG, Messenger. Voice in beta. No SMS, Telegram, TikTok",
         "status": "yes",
         "source_url": "https://www.zipchat.ai/llm-info",
         "evidence": "Live channels: Website chat Agentic AI Search AI Product Questions on product pages WhatsApp Instagram DMs Facebook Messenger Email Facebook comments Instagram comments",
         "accessed": "2026-11-20",
-        "note": "Listing Free plan: \"Chat, Emails, WhatsApp, IG, Messenger\". Docs: \"It does not answer on SMS, Telegram or TikTok.\""
+        "note": "Listing Free plan: \"Chat, Emails, WhatsApp, IG, Messenger\". Pricing table has no row for comments, AI Search channel or product page questions per plan beyond \"Agentic Search\" ticked on all 4 paid plans. Docs: \"It does not answer on SMS, Telegram or TikTok.\""
       },
       "gorgias": {
         "value": "Email, chat, SMS, Instagram DMs, Facebook Messenger, WhatsApp. Requires the AI Agent add-on (any plan). Voice not listed.",
@@ -355,10 +355,10 @@
         "note": "Pricing page row 'Smart product recommendation': Limited, Limited, Yes, Yes. Help center also lists finding products from a customer photo."
       },
       "tidio": {
-        "value": "Yes: Lyro recommends synced Shopify products as product cards, stock-aware; included from Lyro AI Starter",
+        "value": "Yes: Lyro recommends synced Shopify products as product cards, stock-aware; on any plan with Lyro AI (or during the 7-day trial); works in the chat widget, Messenger, Instagram, WhatsApp and email tickets",
         "status": "yes",
         "source_url": "https://help.tidio.com/articles/product-recs-shopify/",
-        "evidence": "Sync your Shopify products so Lyro can recommend them",
+        "evidence": "The feature is currently available to Tidio users who: Have Tidio integrated via the Shopify app Are on a plan with Lyro AI (or still on their free 7-day trial) Have Lyro activated in their Tidio project",
         "accessed": "2026-11-20",
         "note": ""
       },
@@ -384,12 +384,12 @@
       "category": "AI agent",
       "feature": "Adds to real cart",
       "chatty": {
-        "value": "Yes: AI adds and removes items in the shopper's Shopify cart; AI Mode chatbox (with Add to cart) is on every plan including Free",
+        "value": "Yes: AI adds and removes items in the shopper's Shopify cart; the help center says the AI Mode chatbox (with Add to cart) is on every plan including Free",
         "status": "yes",
         "source_url": "https://help.chatty.net/ai/overview/what-ai-assistant-can-do",
         "evidence": "AI helps customers update their shopping cart by adding and removing items.",
         "accessed": "2026-11-20",
-        "note": "Custom-built cart drawers or non-standard Ajax carts may need extra setup (same article). AI Mode on every plan: help.chatty.net/chatbox/ai-mode-vs-legacy."
+        "note": "Plan wording conflicts: the Shopify listing and chatty.net/pricing/ FAQ list 'AI Shopping assistant' under Pro and Plus, while help.chatty.net/chatbox/ai-mode-vs-legacy says AI Mode is 'Available on every plan, including Free'. Custom-built cart drawers or non-standard Ajax carts may need extra setup (same article)."
       },
       "tidio": {
         "value": "Yes: Add to cart button on Lyro product cards (Shopify and WooCommerce), shopper picks a variant; can be switched to View details",
@@ -429,12 +429,12 @@
         "note": ""
       },
       "tidio": {
-        "value": "No source found describing Lyro sending a checkout link",
+        "value": "Not documented: help center describes an Add to cart button (variant picker) or View details button on Lyro product cards; no mention of Lyro sending a checkout or cart link",
         "status": "unknown",
-        "source_url": "",
+        "source_url": "https://help.tidio.com/articles/product-recs-shopify/",
         "evidence": "",
         "accessed": "2026-11-20",
-        "note": ""
+        "note": "Searched Lyro, Product Recommendations, Actions and Action templates articles on 2026-11-20; no checkout link found."
       },
       "zipchat": {
         "value": "No source found describing the AI sending a checkout link",
@@ -442,7 +442,7 @@
         "source_url": "https://www.zipchat.ai/integrations/shopify",
         "evidence": "Add to cart in the chat is opt-in, and it is not checkout.",
         "accessed": "2026-11-20",
-        "note": "WhatsApp cart recovery template can include a link back to the cart (docs), which is a campaign, not an in-chat checkout link."
+        "note": "Rechecked docs (llms-full.txt), Shopify integration page, llm-info, listing: no mention of the AI sending a checkout or cart permalink. WhatsApp cart recovery template \"can include a link back to the cart\" (docs), which is a campaign, not an in-chat checkout link."
       },
       "gorgias": {
         "value": "No official page found that says the AI sends a checkout link.",
@@ -450,7 +450,7 @@
         "source_url": "",
         "evidence": "",
         "accessed": "2026-11-20",
-        "note": "Not found on pricing, AI Agent page or the Shopping Assistant docs checked on 2026-11-20."
+        "note": "Not found on pricing, AI Agent page, Shopping Assistant docs or the Gorgias blog post 'Guide shoppers to checkout', rechecked 2026-11-20. Docs only describe product cards with add to cart (chat) and product page links (email, SMS)."
       }
     },
     {
@@ -471,7 +471,7 @@
         "source_url": "https://help.tidio.com/articles/lyro-action-templates/",
         "evidence": "With this template, Lyro connects with your Shopify store's API and is able to provide your customer with details regarding their order, including the URL for tracking their package.",
         "accessed": "2026-11-20",
-        "note": ""
+        "note": "Address change: help.tidio.com/articles/lyro-actions/ (\"Lyro updates only address line 1, the province, the zip code and the city - and only within the same country as the original order.\")"
       },
       "zipchat": {
         "value": "Yes, built in on Shopify (order number + checkout email), read-only. Other platforms via Agentic Skill",
@@ -516,7 +516,7 @@
         "source_url": "https://www.zipchat.ai/integrations/shopify",
         "evidence": "Order lookup is read-only: it never cancels, edits or refunds an order. ... Returns, exchanges and order edits need an Agentic Skill connected to your tools.",
         "accessed": "2026-11-20",
-        "note": ""
+        "note": "llm-info lists Loop Returns among \"ready connections\", but docs say: \"There is no built-in returns skill. Connect your returns or order editing app, such as Loop Returns, with a custom skill that uses its API.\""
       },
       "gorgias": {
         "value": "Yes, with Actions (Basic and up): cancel unfulfilled orders with full refund, remove or replace items with refund of the difference, reship lost or damaged orders, edit shipping address. AI Agent page also lists refunds and starting returns.",
@@ -569,20 +569,20 @@
       "category": "AI agent",
       "feature": "Knowledge sources",
       "chatty": {
-        "value": "Shopify products, collections, discounts and markets (synced), store FAQs and pages, custom Q&A, URLs and files",
+        "value": "Shopify products, collections and discounts (synced), store FAQs and pages, custom Q&A, URLs and files; Shopify Markets data on Pro and Plus",
         "status": "yes",
         "source_url": "https://help.chatty.net/ai/train-ai/training-data/knowledge-base",
         "evidence": "Knowledge base Your own answers: questions, links, files, and the FAQs and pages synced from your store",
         "accessed": "2026-11-20",
-        "note": "Limits per plan (pricing page): products 200 / 1,500 / 8,000 / 20,000; custom answers 100 / 5,000 / unlimited / unlimited; URL & file 20 / 200 / 2,000 / unlimited."
+        "note": "Limits per plan (pricing page): products 200 / 1,500 / 8,000 / 20,000; custom answers 100 / 5,000 / unlimited / unlimited; URL & file 20 / 200 / 2,000 / unlimited. Market information tab is off by default and available on Pro and Plus (help.chatty.net/ai/train-ai/training-data)."
       },
       "tidio": {
-        "value": "Websites, Q&As, CSV and PDF files, Zendesk articles, Tidio Help Center articles, product catalog (Shopify, WooCommerce, Google Merchant feed, OpenAPI), Shopify metafields",
+        "value": "Websites, Q&As, CSV and PDF files, Zendesk articles, Tidio Help Center articles, product catalog (Shopify, WooCommerce sync), Shopify metafields. Product feed upload (Google Merchant Center XML) and API upload are Plus only",
         "status": "yes",
         "source_url": "https://help.tidio.com/articles/lyro-data-sources/",
-        "evidence": "Add and manage Lyro's knowledge: websites, Q&As, CSV and PDF files, Zendesk articles, your Help Center articles and your product catalog.",
+        "evidence": "Adding knowledge by importing files (CSV, PDF) ... Importing Zendesk articles, and more ... Synchronizing your webstore products ... Using your Help Center articles ... Please note that the Product feed upload option is only available to Plus subscribers",
         "accessed": "2026-11-20",
-        "note": ""
+        "note": "Metafields: help.tidio.com/articles/product-recs-shopify/ (Letting Lyro read your Shopify metafields). API upload of data sources requires Plus with OpenAPI access."
       },
       "zipchat": {
         "value": "Website crawl, single pages, sitemaps, CSV link lists, PDFs, custom text, Google Merchant feed, codebase and database sources; live Shopify product data for price and stock",
@@ -593,8 +593,8 @@
         "note": "Docs: \"On Shopify stores, the agent uses live product data for price and availability.\""
       },
       "gorgias": {
-        "value": "Help center articles, store website, URLs, documents, guidance (up to 100 enabled), Shopify catalog synced automatically, custom product information. Macros are not used by AI Agent.",
-        "status": "yes",
+        "value": "Help center articles, store website, URLs, documents, guidance (up to 100 enabled), Shopify catalog synced automatically, custom product information. Macros are not used by AI Agent. Part of the AI Agent add-on.",
+        "status": "paid_addon",
         "source_url": "https://docs.gorgias.com/en-US/add-your-brands-content-for-ai-agent-1216498",
         "evidence": "You can add content from various sources, including your help center articles, URLs, documents, guidance, and your store's website",
         "accessed": "2026-11-20",
@@ -617,12 +617,12 @@
         "value": "51 languages",
         "status": "yes",
         "source_url": "https://help.tidio.com/articles/lyro-multilanguage-support/",
-        "evidence": "Lyro answers in 51 languages",
+        "evidence": "There are currently fifty-one (51) supported languages, English included",
         "accessed": "2026-11-20",
         "note": ""
       },
       "zipchat": {
-        "value": "Any language, auto-detected from the shopper's first message, on every plan",
+        "value": "Any language, auto-detected from the shopper's first message; \"All languages\" on all 4 paid plans",
         "status": "yes",
         "source_url": "https://www.zipchat.ai/pricing",
         "evidence": "Zipchat detects your customer's language and replies in it from the first message. Any language, no setup on your end.",
@@ -630,8 +630,8 @@
         "note": "App admin language on the listing: English."
       },
       "gorgias": {
-        "value": "80+ languages; replies in the shopper's language by default or one fixed language.",
-        "status": "yes",
+        "value": "80+ languages; replies in the shopper's language by default or one fixed language. Part of the AI Agent add-on.",
+        "status": "paid_addon",
         "source_url": "https://docs.gorgias.com/en-US/ai-agent-explained-497772",
         "evidence": "AI Agent supports over 80 languages and replies in any of them, even when your knowledge isn't translated.",
         "accessed": "2026-11-20",
@@ -643,20 +643,20 @@
       "category": "AI agent",
       "feature": "Human handover",
       "chatty": {
-        "value": "Yes: auto handoff when the shopper asks for a person, after 2 low-confidence replies, on repeated questions or negative sentiment; the shopper stays in the same chat and the team gets an AI summary",
+        "value": "Yes: auto handoff when the shopper asks for a person, after 2 consecutive low-confidence replies, on repeated questions or negative sentiment; with a live agent the shopper stays in the same chat window, otherwise AI collects details in a form and emails the team a summary",
         "status": "yes",
         "source_url": "https://help.chatty.net/ai/train-ai/ai-skills/transfer",
         "evidence": "Customer asks to talk to a person",
         "accessed": "2026-11-20",
-        "note": ""
+        "note": "Plan gating differs by source: chatty.net/pricing/ shows 'AI transfer' on every plan including Free; the help center pricing table (help.chatty.net/product-roadmap/pricing) shows 'AI handover' on paid plans only."
       },
       "tidio": {
         "value": "Yes: handoff and escalation rules; Lyro can answer always or only when agents are offline; handed-over chats continue in the same conversation",
         "status": "yes",
-        "source_url": "https://www.tidio.com/lyro/",
-        "evidence": "Set flexible handoff and escalation rules to chat personally with high value customers or discuss sensitive topics.",
+        "source_url": "https://help.tidio.com/articles/lyro-main/",
+        "evidence": "Decide whether Lyro responds always, or only when your agents are offline",
         "accessed": "2026-11-20",
-        "note": ""
+        "note": "Handoff and escalation rules: tidio.com/lyro/ (\"Set flexible handoff and escalation rules to chat personally with high value customers or discuss sensitive topics.\")"
       },
       "zipchat": {
         "value": "Yes: Escalate conversation skill with in-app or email alerts; teammates take over in the inbox; Zendesk and Freshdesk handoff; draft mode to approve replies",
@@ -667,8 +667,8 @@
         "note": "Changelog 04/11/2026: escalated conversations load first, with a summary. A 19/11/2026 App Store review asks for direct chat transfer to agents."
       },
       "gorgias": {
-        "value": "Yes: hands over on low confidence, sensitive topics, frustration, and merchant-set handover topics.",
-        "status": "yes",
+        "value": "Yes: hands over on low confidence, sensitive topics, frustration, and merchant-set handover topics. Part of the AI Agent add-on.",
+        "status": "paid_addon",
         "source_url": "https://docs.gorgias.com/en-US/customize-how-ai-agent-hands-over-to-your-team-6008591",
         "evidence": "AI Agent will hand over a conversation to your team for three reasons: built-in conversation signals, topics you've configured, and cases where it can't generate a reliable answer.",
         "accessed": "2026-11-20",
@@ -688,12 +688,12 @@
         "note": "Help center: available for all users. Custom scenarios: 5 on Free and Basic, 15 on Pro, unlimited on Plus."
       },
       "tidio": {
-        "value": "Yes: Lyro Smart Actions (API calls, Shopify steps) and MCP tools. Starter 3 + 3 MCP, Growth 5 + 5, Plus 10 + 10, Premium custom",
+        "value": "Yes: Lyro Smart Actions (API calls, Shopify steps) and MCP tools. Free and Human only 1 + 1 MCP, Starter 3 + 3, Growth 5 + 5, Plus 10 + 10, Premium custom",
         "status": "yes",
         "source_url": "https://www.tidio.com/pricing/",
-        "evidence": "3 Lyro Smart Actions + 3 MCP tools",
+        "evidence": "3 Lyro Smart Actions + 3 MCP tools ... 5 Lyro Smart Actions + 5 MCP tools ... 10 Lyro Smart Actions + 10 MCP tools",
         "accessed": "2026-11-20",
-        "note": ""
+        "note": "Free and Human only plans: \"1 Smart Action + 1 MCP tool\" (Shopify App Store listing)."
       },
       "zipchat": {
         "value": "Yes: Agentic Skills connect any tool with an API, webhook or MCP; brand chooses which actions run automatically or need approval",
@@ -704,8 +704,8 @@
         "note": ""
       },
       "gorgias": {
-        "value": "Yes: custom actions to any API or app, 130+ actions in library. Actions from Basic plan.",
-        "status": "yes",
+        "value": "Yes: custom actions to any API or app, 130+ actions in library. Part of the AI Agent add-on; Actions from Basic plan.",
+        "status": "paid_addon",
         "source_url": "https://www.gorgias.com/ai-agent",
         "evidence": "130+",
         "accessed": "2026-11-20",
@@ -725,15 +725,15 @@
         "note": ""
       },
       "tidio": {
-        "value": "Yes: Lyro proactive roles start conversations on the website from triggers; up to 5 active (10 on Plus), shared with Guidance limit. Flows also start proactive chats",
+        "value": "Yes: Lyro proactive roles start conversations from triggers, in the website widget only (not Messenger, Instagram, WhatsApp or email); up to 5 active (10 on Plus), shared with the Guidance limit; the first message uses the Flows quota. Flows also start proactive chats",
         "status": "yes",
         "source_url": "https://help.tidio.com/articles/lyro-proactive-roles/",
-        "evidence": "Let Lyro start conversations on your website with proactive roles",
+        "evidence": "Active proactive roles count toward the same limit as your active Guidance (including your handoff guidance): up to 5, or up to 10 on the Plus plan. ... Proactive roles only work inside the Tidio widget ... Sending this message consumes your Flows quota",
         "accessed": "2026-11-20",
         "note": ""
       },
       "zipchat": {
-        "value": "Yes on every plan: proactive website chat (time on page, scroll depth, exit intent), AI follow-ups, WhatsApp campaigns and cart recovery (Shopify)",
+        "value": "Yes: proactive website chat (time on page, scroll depth, exit intent), AI follow-ups, WhatsApp campaigns and cart recovery (Shopify). Proactive AI, AI Follow Ups and WhatsApp Marketing ticked on all 4 paid plans; not listed for the listing Free plan",
         "status": "yes",
         "source_url": "https://www.zipchat.ai/llm-info",
         "evidence": "It can start the conversation after time on page, scroll depth or exit intent.",
@@ -807,7 +807,7 @@
         "note": ""
       },
       "zipchat": {
-        "value": "Last touch within a fixed 24-hour window: on store, purchase within 24h of the last message (same browser visitor ID); in WhatsApp, Instagram, Messenger, email, comments, order within 24h of clicking a link the agent sent. AI then rates influence (strongly influenced / influenced / pending / not influenced). Refunds do not remove orders. Zendesk conversations not attributed",
+        "value": "Last touch within a fixed 24-hour window: on store, purchase within 24h of the last message (same browser visitor ID); in WhatsApp, Instagram, Messenger, email, comments, order within 24h of clicking a link the agent sent. Zipchat then classifies how much the conversation influenced the purchase (strongly influenced / influenced / not influenced, pending while open). Refunds do not remove orders. Zendesk conversations not attributed",
         "status": "yes",
         "source_url": "https://docs.zipchat.ai/settings-tracking-and-security/tracking-and-attribution",
         "evidence": "The 24-hour attribution window is fixed and cannot be changed. When more than one conversation could claim an order, the last one before the purchase gets the credit.",
@@ -836,12 +836,12 @@
         "note": "Metafields, not order tags. Filtering needs the merchant to turn on the metafield filter option in Shopify settings."
       },
       "tidio": {
-        "value": "No source found describing Tidio tagging attributed orders in Shopify admin; reports live in Tidio Analytics",
+        "value": "Not documented: help center describes assisted sales only inside Tidio Analytics (Overview, Sales, Flows); no mention of tags, notes or metafields on attributed orders in Shopify admin",
         "status": "unknown",
-        "source_url": "",
+        "source_url": "https://help.tidio.com/articles/conversion-rate/",
         "evidence": "",
         "accessed": "2026-11-20",
-        "note": ""
+        "note": "Searched conversion-rate, Shopify FAQ, Manage Shopify orders and tidio.com/shopify on 2026-11-20."
       },
       "zipchat": {
         "value": "No source found saying Zipchat tags orders in Shopify admin; attributed sales are shown in the Zipchat dashboard, reports and Backend API",
@@ -849,7 +849,7 @@
         "source_url": "https://docs.zipchat.ai/settings-tracking-and-security/tracking-and-attribution",
         "evidence": "Attributed sales appear in your Dashboard and Reports, and in the purchases field of the Backend API.",
         "accessed": "2026-11-20",
-        "note": ""
+        "note": "Docs only describe UTM parameters added to links in chat responses (\"so your analytics tools can see Zipchat traffic\") and a Purchase Tracking block/pixel. No mention of Shopify order tags, notes or metafields written by Zipchat."
       },
       "gorgias": {
         "value": "No official page found that says attributed orders are tagged in Shopify admin.",
@@ -857,7 +857,7 @@
         "source_url": "",
         "evidence": "",
         "accessed": "2026-11-20",
-        "note": "An 'Add to order note' Action exists for AI Agent workflows, but no doc ties it to revenue attribution."
+        "note": "An 'Add to order note' Action exists for AI Agent workflows (merchant-configured note text), but no doc ties it to revenue attribution. AI Agent tags (ai_close, ai_handover etc.) are applied to Gorgias tickets, not Shopify orders. Rechecked 2026-11-20."
       }
     },
     {
@@ -902,7 +902,7 @@
       "category": "Channels and inbox",
       "feature": "Email",
       "chatty": {
-        "value": "Yes: Free connects 1 email address, paid plans unlimited",
+        "value": "Yes, as an inbox channel the team replies from: Free connects 1 email address, paid plans unlimited. AI replies on email only on Pro and Plus",
         "status": "yes",
         "source_url": "https://help.chatty.net/live-chat/channels/email",
         "evidence": "The Free plan includes one email channel. Upgrade to add more emails.",
@@ -918,7 +918,7 @@
         "note": ""
       },
       "zipchat": {
-        "value": "Yes, AI answers forwarded support inbox, with optional draft mode; every plan",
+        "value": "Yes, AI answers forwarded support inbox, with optional draft mode. Emails ticked on all 4 paid plans and listed on the listing Free plan",
         "status": "yes",
         "source_url": "https://docs.zipchat.ai/llms-full.txt",
         "evidence": "Forward your support inbox to Zipchat so the AI agent answers customer emails or writes drafts.",
@@ -939,7 +939,7 @@
       "category": "Channels and inbox",
       "feature": "Instagram DMs",
       "chatty": {
-        "value": "Yes: Instagram business account DMs in the Chatty inbox",
+        "value": "Yes: Instagram business account DMs in the Chatty inbox, answered by the team. Basic and up per chatty.net/pricing/ (No on Free). AI replies here only on Pro and Plus",
         "status": "yes",
         "source_url": "https://help.chatty.net/live-chat/channels/facebook-messenger-instagram",
         "evidence": "This feature allows you to receive and respond to both Facebook Messenger and Instagram direct messages directly within your Chatty inbox.",
@@ -947,28 +947,28 @@
         "note": "Plan differs by source: chatty.net/pricing/ shows Messenger and Instagram on Basic and up (No on Free); help center pricing table shows it on all plans including Free. AI replies here: Pro and Plus."
       },
       "tidio": {
-        "value": "Yes: messages and comments",
+        "value": "Yes: direct messages, story mentions and replies, and post comments (comments arrive as tickets)",
         "status": "yes",
-        "source_url": "https://help.tidio.com/articles/the-channels-section/",
-        "evidence": "Live Chat, Email, Facebook, Instagram and WhatsApp",
+        "source_url": "https://help.tidio.com/articles/instagram-facebook-comments/",
+        "evidence": "In Tidio, you can integrate with your Facebook Pages and Instagram profiles, and see any comments that users leave under your posts. These comments will become available in your Tidio inbox as incoming tickets",
         "accessed": "2026-11-20",
-        "note": ""
+        "note": "Instagram DMs, story mentions, story replies and comments: help.tidio.com/articles/integration-instagram/"
       },
       "zipchat": {
-        "value": "Yes, AI on DMs, story replies, mentions and comments; every plan",
+        "value": "Yes, AI on DMs, story replies, mentions and comments. Instagram ticked on all 4 paid plans and listed on the listing Free plan",
         "status": "yes",
         "source_url": "https://www.zipchat.ai/llm-info",
         "evidence": "The agent answers Instagram DMs and Facebook Messenger conversations with the catalog, stock levels and order data.",
         "accessed": "2026-11-20",
-        "note": ""
+        "note": "Docs: \"Zipchat answers Instagram direct messages, story replies and story mentions\" and replies to post, reel and ad comments. Per-plan availability of comment replies not stated."
       },
       "gorgias": {
-        "value": "Yes (DMs and comments), all plans",
+        "value": "Yes (DMs, comments, mentions, ad replies), all Helpdesk plans. AI Agent on Instagram DMs needs the AI Agent add-on.",
         "status": "yes",
-        "source_url": "https://docs.gorgias.com/en-US/ai-agent-explained-497772",
-        "evidence": "social channels including Instagram DMs, Facebook Messenger, and WhatsApp",
+        "source_url": "https://docs.gorgias.com/en-US/connect-facebook-and-instagram-to-gorgias-7996758",
+        "evidence": "agents can reply to posts, comments, mentions, ad replies, Messenger messages, and Instagram DMs from the helpdesk",
         "accessed": "2026-11-20",
-        "note": "Compare plans lists 'social' on all plans."
+        "note": "Doc header: 'All Helpdesk plans'. AI Agent on Instagram and Messenger doc header: 'All plans with AI Agent'."
       }
     },
     {
@@ -976,7 +976,7 @@
       "category": "Channels and inbox",
       "feature": "Facebook Messenger",
       "chatty": {
-        "value": "Yes: Messenger in the Chatty inbox",
+        "value": "Yes: Facebook Messenger in the Chatty inbox, answered by the team. Basic and up per chatty.net/pricing/ (No on Free). AI replies here only on Pro and Plus",
         "status": "yes",
         "source_url": "https://help.chatty.net/live-chat/channels/facebook-messenger-instagram",
         "evidence": "This feature allows you to receive and respond to both Facebook Messenger and Instagram direct messages directly within your Chatty inbox.",
@@ -992,20 +992,20 @@
         "note": ""
       },
       "zipchat": {
-        "value": "Yes, AI on Messenger and Facebook comments; every plan",
+        "value": "Yes, AI on Messenger and Facebook comments. Messenger ticked on all 4 paid plans and listed on the listing Free plan",
         "status": "yes",
         "source_url": "https://www.zipchat.ai/llm-info",
         "evidence": "The agent answers Instagram DMs and Facebook Messenger conversations with the catalog, stock levels and order data.",
         "accessed": "2026-11-20",
-        "note": ""
+        "note": "Per-plan availability of comment replies not stated."
       },
       "gorgias": {
-        "value": "Yes, all plans",
+        "value": "Yes, all Helpdesk plans. AI Agent on Messenger needs the AI Agent add-on.",
         "status": "yes",
-        "source_url": "https://docs.gorgias.com/en-US/ai-agent-explained-497772",
-        "evidence": "social channels including Instagram DMs, Facebook Messenger, and WhatsApp",
+        "source_url": "https://docs.gorgias.com/en-US/connect-facebook-and-instagram-to-gorgias-7996758",
+        "evidence": "agents can reply to posts, comments, mentions, ad replies, Messenger messages, and Instagram DMs from the helpdesk",
         "accessed": "2026-11-20",
-        "note": ""
+        "note": "Doc header: 'All Helpdesk plans'. Instagram and Messenger share one AI Agent toggle."
       }
     },
     {
@@ -1013,7 +1013,7 @@
       "category": "Channels and inbox",
       "feature": "WhatsApp",
       "chatty": {
-        "value": "Yes: WhatsApp Business numbers in the Chatty inbox (multiple numbers supported)",
+        "value": "Yes: WhatsApp Business numbers in the Chatty inbox (multiple numbers supported), answered by the team. Basic and up per chatty.net/pricing/ (No on Free). AI replies here only on Pro and Plus",
         "status": "yes",
         "source_url": "https://help.chatty.net/live-chat/channels/whatsapp",
         "evidence": "By connecting WhatsApp, you can check messages from WhatsApp right in Chatty.",
@@ -1029,7 +1029,7 @@
         "note": ""
       },
       "zipchat": {
-        "value": "Yes, via WhatsApp Business Cloud API: AI replies, broadcast campaigns, cart recovery; every plan. Meta fees apply for marketing messages",
+        "value": "Yes, via WhatsApp Business Cloud API: AI replies, broadcast campaigns, cart recovery (cart recovery needs Shopify). WhatsApp on all 4 paid plans and the listing Free plan; \"WhatsApp Marketing\" ticked on all 4 paid plans. Meta fees apply for marketing messages",
         "status": "yes",
         "source_url": "https://www.zipchat.ai/llm-info",
         "evidence": "The same agent on WhatsApp for support, sales, cart recovery and broadcast campaigns.",
@@ -1037,12 +1037,12 @@
         "note": "Pricing FAQ: Meta charges about $0.02 per marketing chat initiated in the US."
       },
       "gorgias": {
-        "value": "Yes; AI Agent can be enabled on WhatsApp",
+        "value": "Yes, all Helpdesk plans. AI Agent on WhatsApp needs the AI Agent add-on.",
         "status": "yes",
-        "source_url": "https://docs.gorgias.com/en-US/enable-ai-agent-on-whatsapp-8087873",
-        "evidence": "Deploying AI Agent on WhatsApp means that it can automatically help shoppers browse, buy and get support when they message your business.",
+        "source_url": "https://docs.gorgias.com/en-US/whatsapp-manage-integration-7996759",
+        "evidence": "All Helpdesk plans",
         "accessed": "2026-11-20",
-        "note": ""
+        "note": "Header of the WhatsApp integration doc. Enable AI Agent on WhatsApp doc header: 'All plans with AI Agent'."
       }
     },
     {
@@ -1058,12 +1058,12 @@
         "note": "These are contact methods shown in the chatbox, not channels connected to the inbox (inbox channels: email, Messenger, Instagram, WhatsApp per help.chatty.net/live-chat/channels)."
       },
       "tidio": {
-        "value": "No SMS channel listed on pricing or help center channel pages",
+        "value": "Not listed: Tidio lists team channels as live chat, email, Messenger, Instagram and WhatsApp, plus the Voice add-on; no SMS channel found",
         "status": "unknown",
-        "source_url": "",
+        "source_url": "https://www.tidio.com/pricing/",
         "evidence": "",
         "accessed": "2026-11-20",
-        "note": "Channels listed by Tidio: live chat, email, Messenger, Instagram, WhatsApp, Voice add-on."
+        "note": "Pricing FAQ: \"Your team can answer customers in: Live chat on your website Email Messenger, Instagram, and WhatsApp\". No explicit statement that SMS is unavailable, so kept unknown."
       },
       "zipchat": {
         "value": "No",
@@ -1124,12 +1124,12 @@
       "category": "Channels and inbox",
       "feature": "Shared team inbox",
       "chatty": {
-        "value": "Yes: live chat, email, Messenger, Instagram and WhatsApp in one inbox with auto chat assignment; multi-store unified inbox on Plus",
+        "value": "Yes: live chat, email, Messenger, Instagram and WhatsApp in one team inbox with auto chat assignment; Messenger, Instagram, WhatsApp and extra emails need a paid plan, AI on those channels needs Pro or Plus; multi-store unified inbox on Plus",
         "status": "yes",
         "source_url": "https://help.chatty.net/live-chat/channels",
         "evidence": "You can manage all messages from email, Facebook Messenger, Instagram, and WhatsApp right in Chatty, alongside your live chat conversations.",
         "accessed": "2026-11-20",
-        "note": "Multi-store Unified Inbox is Plus only (help.chatty.net/live-chat/inbox/unified-inbox)."
+        "note": "Listing shows 'Multi-channel inbox' under Basic. Multi-store Unified Inbox is Plus only (help.chatty.net/live-chat/inbox/unified-inbox)."
       },
       "tidio": {
         "value": "Yes: chat, email and social messages in one inbox, all sharing one conversation quota",
@@ -1214,7 +1214,7 @@
         "note": ""
       },
       "zipchat": {
-        "value": "Yes, native app, Built for Shopify; deepest integration",
+        "value": "Yes, native app with Built for Shopify badge; built in on Shopify: live product search, order lookup, discount creation, purchase tracking (Zipchat calls Shopify its deepest integration)",
         "status": "yes",
         "source_url": "https://www.zipchat.ai/llm-info",
         "evidence": "Shopify and Shopify Plus: native app, Built for Shopify. This is the deepest integration: live product search, order lookup, discount creation and purchase tracking.",
@@ -1243,10 +1243,10 @@
         "note": "Chatty is installed through the Shopify App Store, so a Shopify store is needed; the embed extends it to other sites (help center FAQ: works with WordPress or Wix if custom HTML is allowed). Shopify product/cart features apply to the Shopify store."
       },
       "tidio": {
-        "value": "Yes: WordPress, WooCommerce, BigCommerce, Adobe Commerce, Squarespace, PrestaShop, Wix-style builders and any site via JavaScript",
+        "value": "Yes: WordPress, WooCommerce, BigCommerce, Adobe Commerce, Squarespace, PrestaShop, Wix, Ecwid, OpenCart and any site via JavaScript",
         "status": "yes",
         "source_url": "https://help.tidio.com/sections/install-tidio/",
-        "evidence": "Install Tidio on BigCommerce ... Install Tidio on Adobe Commerce (previously Magento) ... Install Tidio on Squarespace",
+        "evidence": "Install Tidio with the app or plugin for Shopify, WordPress, WooCommerce or BigCommerce, or paste the JavaScript code on any other website.",
         "accessed": "2026-11-20",
         "note": ""
       },
@@ -1494,12 +1494,12 @@
       "category": "Other",
       "feature": "Analytics",
       "chatty": {
-        "value": "Yes: Analytics with six tabs (Sales, Multi-channel, Operations & Team and more); Free sees Overview only; Pro and Plus add detailed breakdowns and export; chat events can be sent to GA4",
+        "value": "Yes: Analytics with six tabs (Overview, Human agent, AI agent, Sales, Customer intents, FAQs); Free sees Overview only; Basic and up see every tab; report export on Pro and Plus. Chat events can be sent to GA4 with the Storefront SDK",
         "status": "yes",
         "source_url": "https://help.chatty.net/analytics",
         "evidence": "Free: Overview tab only. The other tabs stay blurred behind an Upgrade link.",
         "accessed": "2026-11-20",
-        "note": "Listing: Basic 'Basic analytics', Pro 'Advanced analytics'."
+        "note": "Listing: Basic 'Basic analytics', Pro 'Advanced analytics'. GA4: help.chatty.net/sdk/events (merchant adds a code snippet)."
       },
       "tidio": {
         "value": "Basic analytics on all plans (Overview, AI support, Leads); advanced analytics (Human support, Sales, Insights) on Growth and above; Analytics API",
@@ -1573,7 +1573,7 @@
         "source_url": "https://www.g2.com/products/chatty/reviews",
         "evidence": "",
         "accessed": "2026-11-20",
-        "note": "Not checked live on 2026-11-20. G2 blocked automated access."
+        "note": "G2 returned HTTP 403 to curl and WebFetch on 2026-11-20. A web search summary reported 4.8 stars from 88 reviews, but it could not be confirmed on the G2 page, so it is not used."
       },
       "tidio": {
         "value": "4.6 on G2 (as shown by Tidio)",
@@ -1586,10 +1586,10 @@
       "zipchat": {
         "value": "Not verified: G2 returned 403. Zipchat self-reports G2 4.5",
         "status": "unknown",
-        "source_url": "https://www.g2.com/products/zipchat-ai/reviews",
+        "source_url": "https://www.zipchat.ai/llm-info",
         "evidence": "Ratings: Shopify App Store 4.9, G2 4.5, Capterra 4.9.",
         "accessed": "2026-11-20",
-        "note": "Evidence quote is from zipchat.ai/llm-info, not from G2."
+        "note": "Evidence is Zipchat's self-report on llm-info. G2 page (https://www.g2.com/products/zipchat-ai/reviews) returned 403 on 2026-11-20, so rating and review count are not independently verified."
       },
       "gorgias": {
         "value": "G2 blocked automated access (HTTP 403) on 2026-11-20. Not verified.",
@@ -1597,7 +1597,7 @@
         "source_url": "https://www.g2.com/products/gorgias/reviews",
         "evidence": "",
         "accessed": "2026-11-20",
-        "note": "Third-party articles cite about 4.6/5; not used because the G2 page could not be read."
+        "note": "G2 returned HTTP 403 again on 2026-11-20. Third-party articles cite about 4.6/5; not used because the G2 page could not be read."
       }
     },
     {
@@ -1801,7 +1801,7 @@
         "value": "Agents can cancel, refund, edit orders and change shipping addresses from the Tidio inbox (Native Shopify actions, Growth and above)",
         "status": "yes",
         "source_url": "https://help.tidio.com/articles/manage-shopify-orders/",
-        "evidence": "cancel, refund or edit them, or change their shipping address, without leaving Tidio",
+        "evidence": "You can cancel, refund and edit orders, and change their shipping address.",
         "accessed": "2026-11-20",
         "note": ""
       },
