@@ -1,0 +1,210 @@
+{
+  "README.md": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Which AI sales agent for Shopify can add products to the cart?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "All four document add to cart in chat, with different limits. On Pro and Plus, which unlock Chatty's AI shopping assistant, the AI adds items to the shopper's Shopify cart. Tidio's Lyro shows product cards with add to cart on plans with Lyro, Zipchat adds to cart on Shopify only, as an opt-in, and Gorgias adds to cart on chat with the paid AI Agent."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Which Shopify apps can send a checkout link in chat?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Chatty documents it: on Pro and Plus, the AI shopping assistant sends a checkout link with the items in the shopper's cart. No Tidio, Zipchat or Gorgias page found on November 20, 2026 describes the AI sending a checkout link."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Which Shopify AI sales agents show sales linked to chat?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "All four have a sales report, on different plans. Chatty's Chat-to-Sales report is on Basic and up, Tidio's full Sales section is on Growth and up for Shopify stores, Zipchat shows revenue in its dashboard, and Gorgias's Revenue report is on Pro and up. Their counting rules differ, so the numbers are not comparable."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does Chatty count sales from chat?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "An order counts as Chatty Assisted when the customer chatted with Chatty (AI or team) or viewed the store's FAQs within 7 days before ordering. These orders are linked to the chat, not proven to be caused by it, and carry a Chatty Assisted metafield you can filter in Shopify admin."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Which AI sales agents for Shopify have a free plan?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Chatty has a free plan with 50 AI conversations a month. Tidio's free plan has 50 human conversations a month plus 50 Lyro conversations once. Zipchat shows a free plan (120 AI replies a month) only on its App Store listing, and Gorgias has a 7-day trial and no free plan."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Which apps can answer with AI on Instagram, WhatsApp and email?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Tidio's Lyro answers on these channels on any plan with Lyro, and Zipchat on every paid plan. Gorgias needs the paid AI Agent add-on. Chatty's AI answers on these channels on Pro and Plus only."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Which of these apps work outside Shopify?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Tidio, Zipchat and Gorgias have native support for other platforms such as WooCommerce and BigCommerce. Chatty is a Shopify app; its chat widget can be embedded on other sites the merchant owns."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Who makes Chatty, the AI sales agent for Shopify?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Chatty is made by Avada (AVADA GROUP COMPANY LIMITED) and lives at chatty.net. It is listed on the Shopify App Store at apps.shopify.com/chatty and is not related to other products named Chatty."
+        }
+      }
+    ]
+  },
+  "compare/chatty-vs-tidio.md": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Is there a Tidio alternative for Shopify with a free plan?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Chatty has a free plan with 50 AI conversations a month, with human conversations unlimited. Tidio's own free plan has 50 human conversations a month plus 50 Lyro AI conversations once."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can Chatty and Tidio add products to the Shopify cart?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, both. Chatty's AI shopping assistant adds items to the Shopify cart and sends a checkout link on Pro and Plus. Tidio's Lyro shows product cards with an add to cart button on plans with Lyro; no Tidio source describes a checkout link."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do Chatty and Tidio count sales from chat?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Chatty links an order to chat when the customer chatted with Chatty or viewed the store's FAQs within 7 days before ordering. Tidio credits Lyro when the shopper clicked a Lyro product recommendation before buying, and human agents for orders within 7 days."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does Tidio's Lyro AI answer on Instagram and WhatsApp?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Lyro answers on chat, email, Messenger, Instagram and WhatsApp on any plan with Lyro. Chatty's AI answers on those channels on Pro and Plus only."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How much do Chatty and Tidio cost?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Chatty's paid plans start at $19.99 a month for Basic. Tidio starts at $29 a month for human only and $39 a month with Lyro AI."
+        }
+      }
+    ]
+  },
+  "compare/chatty-vs-zipchat.md": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Does Zipchat have a free plan?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Only on its Shopify App Store listing, with 120 AI replies a month. The Zipchat website lists no free plan and starts at $80 a month. Chatty's free plan has 50 AI conversations a month."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can Zipchat and Chatty add products to the Shopify cart?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, both. Zipchat adds to cart on Shopify only, as an opt-in. Chatty's AI shopping assistant adds items to the Shopify cart and sends a checkout link on Pro and Plus."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does Zipchat count sales from chat?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Zipchat uses last touch within 24 hours: a purchase within 24 hours of the last message on the store, or of clicking an agent link on other channels. Chatty uses a 7-day window after a chat or FAQ view and marks linked orders in Shopify admin."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is Zipchat a helpdesk?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. Zipchat says it is not a helpdesk and works with Zendesk, Freshdesk and Gorgias for ticketing. Chatty's helpdesk tickets are in early access."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is there a lower-priced Zipchat alternative for Shopify?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Chatty's Basic plan is $19.99 a month with 100 AI conversations. Zipchat's Starter plan is $80 a month with 750 AI replies. One counts conversations and the other replies, so check your expected volume."
+        }
+      }
+    ]
+  },
+  "compare/chatty-vs-gorgias.md": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is the cheapest Gorgias alternative with AI?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In this comparison, Chatty includes AI on every plan: the free plan has 50 AI conversations a month and Basic is $19.99 a month. Gorgias's cheapest plan with AI Agent is $40 a month. Tidio's free plan includes 50 Lyro AI conversations once."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does Gorgias have a free plan?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. Gorgias has a 7-day free trial, and paid plans start at $10 a month for the helpdesk."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can Gorgias and Chatty add products to the Shopify cart?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, both. Gorgias's AI shows product cards with add to cart on chat, as part of the paid AI Agent. Chatty's AI shopping assistant adds items to the Shopify cart and sends a checkout link on Pro and Plus."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does Gorgias count revenue from chat?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Gorgias uses a 3-day window, and its Revenue report is on Pro and up. Chatty uses a 7-day window after a chat or FAQ view, with the Chat-to-Sales report on Basic and up."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can the AI issue refunds or cancel orders?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Gorgias's AI can, with Actions on Basic and up. Chatty's AI routes return, refund and cancel requests to your team and does not issue refunds itself."
+        }
+      }
+    ]
+  }
+}

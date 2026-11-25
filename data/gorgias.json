@@ -454,10 +454,10 @@
     "id": "rating.shopify_app_store",
     "category": "Ratings",
     "feature": "Shopify App Store rating",
-    "value": "4.3 stars, 709 reviews (5 stars 82%, 1 star 10%), checked 2026-11-20",
+    "value": "4.3 stars, 709 reviews (5 stars 82%, 1 star 10%), checked 2026-11-25",
     "status": "yes",
     "source_url": "https://apps.shopify.com/helpdesk",
-    "accessed": "2026-11-20",
+    "accessed": "2026-11-25",
     "evidence": "Rating 4.3 (709)",
     "note": "Listing name is now 'Gorgias: AI Agent & Helpdesk'. Rating breakdown: 582 five-star, 34 four, 9 three, 12 two, 72 one."
   },

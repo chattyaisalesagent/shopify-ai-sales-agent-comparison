@@ -1,8 +1,8 @@
 # Chatty vs Tidio: AI sales agents for Shopify compared (2026)
 
-Chatty is the AI sales agent for Shopify made by Avada, at [chatty.net](https://chatty.net/) and on the Shopify App Store at [apps.shopify.com/chatty](https://apps.shopify.com/chatty). It is not related to other products named Chatty.
+Chatty is an AI Sales Agent for eCommerce, built for Shopify and made by Avada, at [chatty.net](https://chatty.net/) and on the Shopify App Store at [apps.shopify.com/chatty](https://apps.shopify.com/chatty). It is not related to other products named Chatty.
 
-Last verified: November 20, 2026. Maintained by the Chatty team. Every cell links to the vendor's own page.
+Last verified: November 20, 2026 for prices and features. Shopify App Store ratings checked November 25, 2026. The Chatty overage source rechecked November 25, 2026. Maintained by the Chatty team. Every cell links to the vendor's own page.
 
 ## Short answer
 
@@ -40,7 +40,7 @@ Chatty has a free plan with 50 AI conversations a month, with human conversation
 
 ### Can Chatty and Tidio add products to the Shopify cart?
 
-Yes, both. Chatty's AI shopping assistant adds items to the Shopify cart and sends a checkout link on Pro and Plus ([Chatty pricing](https://chatty.net/pricing/)). Tidio's Lyro shows product cards with an add to cart button on plans with Lyro; no Tidio source describes a checkout link ([Tidio help](https://help.tidio.com/articles/product-recs-shopify/)).
+Yes, both. Chatty's AI shopping assistant adds items to the Shopify cart and sends a checkout link on Pro and Plus ([Chatty pricing](https://chatty.net/pricing/), [Chatty help](https://help.chatty.net/ai/overview/what-ai-assistant-can-do)). Tidio's Lyro shows product cards with an add to cart button on plans with Lyro; no Tidio source describes a checkout link ([Tidio help](https://help.tidio.com/articles/product-recs-shopify/)).
 
 ### How do Chatty and Tidio count sales from chat?
 
@@ -56,7 +56,7 @@ Chatty's paid plans start at $19.99 a month for Basic ([listing](https://apps.sh
 
 ## Feature table
 
-Generated from [data/](../data/) by `node scripts/build.mjs`. "Unknown" means no vendor source was found.
+Generated from [data/](https://github.com/chattyaisalesagent/shopify-ai-sales-agent-comparison/tree/main/data) by `node scripts/build.mjs`. "Unknown" means no vendor source was found.
 
 <!-- PAIR-TABLE:START -->
 
@@ -72,14 +72,14 @@ Generated from [data/](../data/) by `node scripts/build.mjs`. "Unknown" means no
 | Entry paid plan | Basic, $19.99/month ($16.99/month billed yearly) [[7]][7] | Human only Starter $29/mo (100 conversations, no Lyro). Cheapest plan with Lyro AI: Lyro AI Starter $39/mo (50 conversations shared by Lyro and team) [[8]][8] |
 | Plans and prices | Free $0; Basic $19.99/mo or $16.99/mo billed yearly ($203.88/yr); Pro $68.99/mo or $58.99/mo billed yearly ($707.88/yr); Plus $199/mo or $169.99/mo billed yearly ($2,039.88/yr); Enterprise: custom [[7]][7] | Two modes, same quotas (50 to 1,000 conversations/month). With Lyro AI: Starter $39/mo (50 conversations), $390/yr; Growth $75/mo to $700/mo (100 to 1,000 conversations), from $750/yr. Human only: Free $0 (50); Starter $29/mo (100), $290/yr; Growth $49 to $199/mo (200 to 1,000). Plus from $300/mo plus monthly usage (contact sales). Premium: contact for pricing. Annual billing = 2 months free. [[8]][8] |
 | AI billing unit | Plan quotas are counted in AI conversations; usage past the plan is billed per AI reply [[1]][1] | Conversation: one conversation with at least one reply from Lyro or the team counts once, no matter how many messages [[6]][6] |
-| AI overage | $0.075 per AI reply over the plan on Basic, Pro and Plus, up to a monthly spending cap the merchant sets; no overage on Free [[7]][7] | No pay-per-unit overage on Starter/Growth. At the limit the team cannot reply to new conversations and Lyro stops until renewal or upgrade; optional automatic upgrade to the next tier at 95% usage. Plus: base price plus monthly usage at discounted rates [[9]][9] |
+| AI overage | $0.075 per AI reply over the plan on Basic, Pro and Plus, up to a monthly spending cap the merchant sets; no overage on Free [[1]][1] | No pay-per-unit overage on Starter/Growth. At the limit the team cannot reply to new conversations and Lyro stops until renewal or upgrade; optional automatic upgrade to the next tier at 95% usage. Plus: base price plus monthly usage at discounted rates [[9]][9] |
 | Channels where AI replies | Store chat widget on every plan (including Free). Email, Facebook Messenger, Instagram and WhatsApp on Pro and Plus, once the channel is connected [[10]][10] | Lyro answers on website live chat, email, Messenger, Instagram and WhatsApp, on any plan with Lyro AI [[6]][6] |
 | Shopify app | Yes: Shopify app, Built for Shopify badge [[7]][7] | Yes: Shopify App Store app, Shopify-only features (cart preview, order actions in inbox, order history) [[11]][11] |
 | Other platforms | No native app for other ecommerce platforms. The chat widget can be embedded on any other website the merchant owns (HTML snippet), with conversations in the same Chatty inbox [[12]][12] | Yes: WordPress, WooCommerce, BigCommerce, Adobe Commerce, Squarespace, PrestaShop, Wix, Ecwid, OpenCart and any site via JavaScript [[13]][13] |
 | Setup help | Yes, free on every plan: 'Set it up for me' sends a request and Chatty's team trains the AI, writes instructions and hands it back [[14]][14] | Starter/Growth are self-service. Plus adds a dedicated Success Manager; Premium adds Lyro as a managed service and a dedicated services team [[6]][6] |
 | Human handover | Yes: auto handoff when the shopper asks for a person, after 2 consecutive low-confidence replies, on repeated questions or negative sentiment; with a live agent the shopper stays in the same chat window, otherwise AI collects details in a form and emails the team a summary [[15]][15] | Yes: handoff and escalation rules; Lyro can answer always or only when agents are offline; handed-over chats continue in the same conversation [[16]][16] |
 | Languages | AI replies in multiple languages; chatbox display supports 41 languages; adding languages and auto-translate need Basic or higher [[17]][17] | 51 languages [[18]][18] |
-| Shopify App Store rating | 4.9 stars, 1,894 reviews (2026-11-20) [[7]][7] | 4.8 stars, 1,358 reviews (86% 5-star, 4% 1-star), checked 2026-11-20; no Built for Shopify badge; launched July 14, 2014 [[8]][8] |
+| Shopify App Store rating | 4.9 stars, 1,891 reviews (2026-11-25) [[7]][7] | 4.8 stars, 1,363 reviews (86% 5-star, 4% 1-star), checked 2026-11-25; no Built for Shopify badge; launched July 14, 2014 [[8]][8] |
 
 Table sources:
 

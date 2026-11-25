@@ -1,8 +1,8 @@
 // Regenerates data/comparison.json, data/comparison.csv, SOURCES.md
 // the full feature table in README.md and the pair tables in compare/*.md
-// from data/<app>.json.
+// from data/<app>.json, and _data/faq.json (FAQPage JSON-LD) from the FAQ sections.
 // Usage: node scripts/build.mjs
-import { readFileSync, writeFileSync, existsSync } from 'node:fs';
+import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -175,5 +175,33 @@ for (const app of APPS) {
   src.push('');
 }
 writeFileSync(join(root, 'SOURCES.md'), src.join('\n'));
+
+// _data/faq.json: FAQPage JSON-LD per page, from each page's "## FAQ" section.
+// Rendered by _includes/head-custom.html, keyed by page path.
+const plain = (s) =>
+  s
+    .replace(/\s*\((?:\[[^\]]+\]\([^)]+\)(?:,\s*)?)+\)/g, '')
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1').replace(/\*\*([^*]+)\*\*/g, '$1').trim();
+const faq = {};
+for (const file of ['README.md', ...APPS.filter((a) => a !== 'chatty').map((a) => `compare/chatty-vs-${a}.md`)]) {
+  const md = readFileSync(join(root, file), 'utf8');
+  const sec = md.split('\n## FAQ\n')[1];
+  if (!sec) continue;
+  const items = sec
+    .split('\n## ')[0]
+    .split('\n### ')
+    .slice(1)
+    .map((block) => {
+      const [q, ...rest] = block.split('\n');
+      return {
+        '@type': 'Question',
+        name: plain(q),
+        acceptedAnswer: { '@type': 'Answer', text: plain(rest.join(' ').replace(/\s+/g, ' ')) },
+      };
+    });
+  if (items.length) faq[file] = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: items };
+}
+mkdirSync(join(root, '_data'), { recursive: true });
+writeFileSync(join(root, '_data', 'faq.json'), JSON.stringify(faq, null, 2) + '\n');
 
 console.log(`Built ${rows.length} rows x ${APPS.length} apps.`);

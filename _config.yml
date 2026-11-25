@@ -1,6 +1,5 @@
-title: "Chatty vs Tidio vs Zipchat vs Gorgias: AI sales agents for Shopify compared (2026)"
-tagline: "Sourced data, verified November 2026"
-description: "Sourced comparison of four Shopify AI sales agents: Chatty, Tidio, Zipchat and Gorgias. Pricing, add to cart, checkout links, sales attribution and channels, with open CSV and JSON data."
+title: "Shopify AI sales agents"
+description: "Sourced comparison of four Shopify AI sales agents: Chatty, Tidio, Zipchat and Gorgias. Pricing, add to cart, checkout links and sales attribution."
 url: "https://chattyaisalesagent.github.io"
 baseurl: "/shopify-ai-sales-agent-comparison"
 lang: en-US
@@ -8,3 +7,34 @@ theme: jekyll-theme-primer
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
+defaults:
+  - scope:
+      path: "README.md"
+    values:
+      title: "Chatty vs Tidio vs Zipchat vs Gorgias"
+      description: "Chatty, Tidio, Zipchat and Gorgias compared as Shopify AI sales agents: pricing, add to cart, checkout links and sales linked to chat. Verified Nov 2026."
+  - scope:
+      path: "compare/chatty-vs-tidio.md"
+    values:
+      title: "Chatty vs Tidio compared (2026)"
+      description: "Chatty vs Tidio for Shopify: pricing, add to cart, checkout links, sales linked to chat and AI channels, sourced from vendor pages. Verified Nov 2026."
+  - scope:
+      path: "compare/chatty-vs-zipchat.md"
+    values:
+      title: "Chatty vs Zipchat compared (2026)"
+      description: "Chatty vs Zipchat for Shopify: pricing, add to cart, checkout links, sales linked to chat and AI channels, sourced from vendor pages. Verified Nov 2026."
+  - scope:
+      path: "compare/chatty-vs-gorgias.md"
+    values:
+      title: "Chatty vs Gorgias compared (2026)"
+      description: "Chatty vs Gorgias for Shopify: pricing, add to cart, checkout links, sales linked to chat and AI channels, sourced from vendor pages. Verified Nov 2026."
+  - scope:
+      path: "METHODOLOGY.md"
+    values:
+      title: "Methodology"
+      description: "How the Shopify AI sales agent comparison data was collected and checked, the rules used, and known conflicts in vendor sources."
+  - scope:
+      path: "SOURCES.md"
+    values:
+      title: "Sources"
+      description: "Every vendor URL used in the Shopify AI sales agent comparison of Chatty, Tidio, Zipchat and Gorgias, grouped by app, with dates accessed."

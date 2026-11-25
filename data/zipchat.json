@@ -223,12 +223,12 @@
     "id": "attr.revenue_report",
     "category": "Sales attribution",
     "feature": "Revenue report from chat",
-    "value": "Yes: dashboard and monthly reports show revenue, orders, chat-to-sale rate and AOV linked to conversations, by channel, surface and market; also a built-in A/B test (added 18/11/2026)",
+    "value": "Yes: dashboard and monthly reports show revenue, orders, chat-to-sale rate and AOV linked to conversations, by channel, surface and market; also a built-in A/B test (added 2026-11-18), included in every plan per the Zipchat pricing FAQ",
     "status": "yes",
     "source_url": "https://docs.zipchat.ai/settings-tracking-and-security/analytics-and-roi",
     "accessed": "2026-11-20",
     "evidence": "Sales linked to conversations, split into strongly influenced, influenced and pending. Orders that were not influenced are shown but not counted.",
-    "note": "Pricing FAQ: \"A/B testing is built into Zipchat and included in every plan.\""
+    "note": "A/B test source: https://www.zipchat.ai/pricing (accessed 2026-11-25), pricing FAQ: \"A/B testing is built into Zipchat and included in every plan.\""
   },
   {
     "id": "attr.method",
@@ -454,10 +454,10 @@
     "id": "rating.shopify_app_store",
     "category": "Ratings",
     "feature": "Shopify App Store rating",
-    "value": "4.9 stars, 211 reviews (95% 5-star, 7 one-star), checked 2026-11-20",
+    "value": "4.9 stars, 211 reviews (95% 5-star, 7 one-star), checked 2026-11-25",
     "status": "yes",
     "source_url": "https://apps.shopify.com/zipchat",
-    "accessed": "2026-11-20",
+    "accessed": "2026-11-25",
     "evidence": "Rating 4.9 (211)",
     "note": "Built for Shopify badge. Launched May 23, 2023."
   },

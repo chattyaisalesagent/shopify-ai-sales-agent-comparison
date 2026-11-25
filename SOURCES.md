@@ -4,8 +4,8 @@ Every URL used in the data files, grouped by app. All pages were read on the dat
 
 ## Chatty
 
-- https://apps.shopify.com/chatty (accessed 2026-11-20). Used for: pricing.plans, pricing.entry_paid, pricing.ai_overage, ai.order_tracking, plat.shopify, rating.shopify_app_store
-- https://chatty.net/pricing/ (accessed 2026-11-20). Used for: pricing.free_plan, pricing.trial, pricing.ai_unit, pricing.ai_included, pricing.seats, ai.product_recommendation, ai.add_to_cart, ai.checkout_link, ch.live_chat, other.faq_help_center, extra.ai_model_by_plan
+- https://apps.shopify.com/chatty (accessed 2026-11-20, 2026-11-25). Used for: pricing.plans, pricing.entry_paid, ai.order_tracking, plat.shopify, rating.shopify_app_store
+- https://chatty.net/pricing/ (accessed 2026-11-20, 2026-11-25). Used for: pricing.free_plan, pricing.trial, pricing.ai_unit, pricing.ai_included, pricing.ai_overage, pricing.seats, ai.product_recommendation, ai.add_to_cart, ai.checkout_link, ch.live_chat, other.faq_help_center, extra.ai_model_by_plan
 - https://help.chatty.net/ai/overview/what-ai-assistant-can-do (accessed 2026-11-20). Used for: ai.languages
 - https://help.chatty.net/ai/settings/ai-channels (accessed 2026-11-20). Used for: ai.channels
 - https://help.chatty.net/ai/train-ai/ai-skills/after-sales-support (accessed 2026-11-20). Used for: ai.returns_refunds
@@ -34,7 +34,7 @@ Every URL used in the data files, grouped by app. All pages were read on the dat
 
 ## Tidio
 
-- https://apps.shopify.com/tidio-chat (accessed 2026-11-20). Used for: pricing.plans, pricing.entry_paid, ch.shared_inbox, other.integrations, rating.shopify_app_store
+- https://apps.shopify.com/tidio-chat (accessed 2026-11-20, 2026-11-25). Used for: pricing.plans, pricing.entry_paid, ch.shared_inbox, other.integrations, rating.shopify_app_store
 - https://help.tidio.com/articles/analytics-section/ (accessed 2026-11-20). Used for: other.analytics
 - https://help.tidio.com/articles/conversion-rate/ (accessed 2026-11-20). Used for: attr.revenue_report, attr.method, attr.order_tag
 - https://help.tidio.com/articles/instagram-facebook-comments/ (accessed 2026-11-20). Used for: ch.instagram
@@ -56,7 +56,7 @@ Every URL used in the data files, grouped by app. All pages were read on the dat
 
 ## Zipchat
 
-- https://apps.shopify.com/zipchat (accessed 2026-11-20). Used for: pricing.free_plan, rating.shopify_app_store
+- https://apps.shopify.com/zipchat (accessed 2026-11-20, 2026-11-25). Used for: pricing.free_plan, rating.shopify_app_store
 - https://docs.zipchat.ai/ai-training-and-rules/knowledge-base (accessed 2026-11-20). Used for: ai.knowledge_sources, other.faq_help_center
 - https://docs.zipchat.ai/llms-full.txt (accessed 2026-11-20). Used for: ai.human_handover, ch.live_chat, ch.email, ch.sms, ch.shared_inbox, ch.mobile_app, plat.shopify_plus
 - https://docs.zipchat.ai/settings-tracking-and-security/analytics-and-roi (accessed 2026-11-20). Used for: attr.revenue_report, other.analytics
@@ -68,7 +68,7 @@ Every URL used in the data files, grouped by app. All pages were read on the dat
 
 ## Gorgias
 
-- https://apps.shopify.com/helpdesk (accessed 2026-11-20). Used for: ch.shared_inbox, other.helpdesk_ticketing, rating.shopify_app_store
+- https://apps.shopify.com/helpdesk (accessed 2026-11-20, 2026-11-25). Used for: ch.shared_inbox, other.helpdesk_ticketing, rating.shopify_app_store
 - https://docs.gorgias.com/en-US/add-your-brands-content-for-ai-agent-1216498 (accessed 2026-11-20). Used for: ai.knowledge_sources
 - https://docs.gorgias.com/en-US/ai-agent-actions-make-changes-to-shopify-orders-757792 (accessed 2026-11-20). Used for: ai.returns_refunds
 - https://docs.gorgias.com/en-US/ai-agent-explained-497772 (accessed 2026-11-20). Used for: ai.channels, ai.languages

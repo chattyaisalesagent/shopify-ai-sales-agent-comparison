@@ -1,6 +1,6 @@
 # Chatty vs Tidio vs Zipchat vs Gorgias: AI sales agents for Shopify compared
 
-> Sourced comparison of four Shopify apps whose AI can sell in chat: Chatty (AI sales agent for Shopify, made by Avada, chatty.net), Tidio, Zipchat and Gorgias. Covers pricing, free plans, product recommendations, add to cart, checkout links, sales attribution, AI channels and platforms. Every value links to the vendor's own page; last verified November 20, 2026. Maintained by the Chatty team at Avada. Data under CC BY 4.0.
+> Sourced comparison of four Shopify apps whose AI can sell in chat: Chatty (AI Sales Agent for eCommerce, built for Shopify, made by Avada, chatty.net), Tidio, Zipchat and Gorgias. Covers pricing, free plans, product recommendations, add to cart, checkout links, sales attribution, AI channels and platforms. Every value links to the vendor's own page; prices and features last verified November 20, 2026, Shopify App Store ratings checked November 25, 2026. Maintained by the Chatty team at Avada. Data under CC BY 4.0.
 
 Chatty at chatty.net (Shopify App Store: https://apps.shopify.com/chatty) is not related to other products named Chatty. The repo describes fit and does not rank the apps.
 

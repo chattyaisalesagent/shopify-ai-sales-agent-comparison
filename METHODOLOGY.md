@@ -6,7 +6,7 @@ This repo is maintained by the Chatty team at Avada. Chatty is one of the four a
 
 ## How the data was collected
 
-- **When:** all pages were read on November 20, 2026.
+- **When:** all pages were read on November 20, 2026. On November 25, 2026, the four Shopify App Store ratings and the Chatty overage source were checked again.
 - **Where:** vendor pricing pages, vendor product pages, vendor help centers and docs, and each app's Shopify App Store listing.
 - **What is stored:** for each app and feature, a short value, a status (yes, no, partial, paid add-on, unknown), the source URL, a verbatim quote from that page, the date accessed, and an optional note.
 - **Third-party sources:** blogs and review roundups are not used as a source.
@@ -39,7 +39,7 @@ node scripts/check.mjs
 
 Sources: chatty.net/pricing/ (website), apps.shopify.com/chatty (listing), help.chatty.net (help center).
 
-1. **Overage price.** Website and listing: $0.075 per AI reply. Help center pricing page: $0.4 per conversation. The data uses $0.075 per AI reply.
+1. **Overage price.** On November 25, 2026, the website pricing page shows $0.075 per AI reply over the plan, while the Shopify App Store listing shows $0.4 per AI conversation over the plan. The help center pricing page also shows $0.4 per conversation. The data uses the website pricing page: $0.075 per AI reply.
 2. **Messenger, Instagram and WhatsApp inbox on Free.** Website: Basic and up. Listing: Free has email connect, Basic adds the multi-channel inbox. Help center pricing table: all plans, while its own FAQ says paid plans add the multi-channel inbox. AI replies on these channels are Pro and Plus only in every source.
 3. **What counts as assisted.** The help center definition of Chatty Assisted includes customers who only viewed the store's FAQs within 7 days, not only those who chatted. The README states this.
 4. **AI shopping assistant plan.** Website pricing page FAQ: "Pro and Plus also unlock the AI shopping assistant", and the listing shows AI Shopping assistant under Pro and Plus. Help center (chatbox/ai-mode-vs-legacy): AI Mode is "Available on every plan, including Free". The data uses the pricing page: add to cart and checkout link on Pro and Plus. Product recommendations are on every plan, limited on Free and Basic.

@@ -6,7 +6,8 @@
     "gorgias"
   ],
   "accessed": [
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-25"
   ],
   "rows": [
     {
@@ -238,10 +239,10 @@
       "chatty": {
         "value": "$0.075 per AI reply over the plan on Basic, Pro and Plus, up to a monthly spending cap the merchant sets; no overage on Free",
         "status": "yes",
-        "source_url": "https://apps.shopify.com/chatty",
-        "evidence": "$0.075 per AI reply over your plan, up to the monthly cap you set.",
-        "accessed": "2026-11-20",
-        "note": "chatty.net/pricing/ shows the same $0.075 and estimates 2.5 AI replies per conversation (the Chatty average). Note: help.chatty.net/product-roadmap/pricing still shows $0.4/conversation. Help center: cap can be set from $1 to $1,000; at the cap the AI pauses until the next billing cycle."
+        "source_url": "https://chatty.net/pricing/",
+        "evidence": "On Basic, Pro and Plus, AI replies over your plan are billed at $0.075 each on the same 30-day cycle as your plan, and you can set a spending limit in the app",
+        "accessed": "2026-11-25",
+        "note": "The pricing page estimates 2.5 AI replies per conversation (the Chatty average). On 2026-11-25 the Shopify App Store listing shows $0.4 per AI conversation over the plan, and help.chatty.net/product-roadmap/pricing shows $0.4/conversation; the data uses the pricing page. Help center: cap can be set from $1 to $1,000; at the cap the AI pauses until the next billing cycle."
       },
       "tidio": {
         "value": "No pay-per-unit overage on Starter/Growth. At the limit the team cannot reply to new conversations and Lyro stops until renewal or upgrade; optional automatic upgrade to the next tier at 95% usage. Plus: base price plus monthly usage at discounted rates",
@@ -770,12 +771,12 @@
         "note": ""
       },
       "zipchat": {
-        "value": "Yes: dashboard and monthly reports show revenue, orders, chat-to-sale rate and AOV linked to conversations, by channel, surface and market; also a built-in A/B test (added 18/11/2026)",
+        "value": "Yes: dashboard and monthly reports show revenue, orders, chat-to-sale rate and AOV linked to conversations, by channel, surface and market; also a built-in A/B test (added 2026-11-18), included in every plan per the Zipchat pricing FAQ",
         "status": "yes",
         "source_url": "https://docs.zipchat.ai/settings-tracking-and-security/analytics-and-roi",
         "evidence": "Sales linked to conversations, split into strongly influenced, influenced and pending. Orders that were not influenced are shown but not counted.",
         "accessed": "2026-11-20",
-        "note": "Pricing FAQ: \"A/B testing is built into Zipchat and included in every plan.\""
+        "note": "A/B test source: https://www.zipchat.ai/pricing (accessed 2026-11-25), pricing FAQ: \"A/B testing is built into Zipchat and included in every plan.\""
       },
       "gorgias": {
         "value": "Yes. Helpdesk Revenue report on Pro, Advanced, Enterprise. Shopping Assistant metrics (revenue influenced, orders influenced, conversion rate, AOV) with the AI Agent add-on.",
@@ -1531,35 +1532,35 @@
       "category": "Ratings",
       "feature": "Shopify App Store rating",
       "chatty": {
-        "value": "4.9 stars, 1,894 reviews (2026-11-20)",
+        "value": "4.9 stars, 1,891 reviews (2026-11-25)",
         "status": "yes",
         "source_url": "https://apps.shopify.com/chatty",
-        "evidence": "Rating 4.9 (1,894)",
-        "accessed": "2026-11-20",
-        "note": "96% of ratings are 5 stars. chatty.net/pricing/ still shows 1,880 reviews as of 13 Oct 2026."
+        "evidence": "Rating 4.9 (1,891)",
+        "accessed": "2026-11-25",
+        "note": "96% of ratings are 5 stars. chatty.net/pricing/ shows the same 1,891 reviews as of 25 Nov 2026."
       },
       "tidio": {
-        "value": "4.8 stars, 1,358 reviews (86% 5-star, 4% 1-star), checked 2026-11-20; no Built for Shopify badge; launched July 14, 2014",
+        "value": "4.8 stars, 1,363 reviews (86% 5-star, 4% 1-star), checked 2026-11-25; no Built for Shopify badge; launched July 14, 2014",
         "status": "yes",
         "source_url": "https://apps.shopify.com/tidio-chat",
-        "evidence": "Rating 4.8 (1,358) ... 86% of ratings are 5 stars ... 4% of ratings are 1 stars",
-        "accessed": "2026-11-20",
+        "evidence": "Rating 4.8 (1,363) ... 86% of ratings are 5 stars ... 4% of ratings are 1 stars",
+        "accessed": "2026-11-25",
         "note": ""
       },
       "zipchat": {
-        "value": "4.9 stars, 211 reviews (95% 5-star, 7 one-star), checked 2026-11-20",
+        "value": "4.9 stars, 211 reviews (95% 5-star, 7 one-star), checked 2026-11-25",
         "status": "yes",
         "source_url": "https://apps.shopify.com/zipchat",
         "evidence": "Rating 4.9 (211)",
-        "accessed": "2026-11-20",
+        "accessed": "2026-11-25",
         "note": "Built for Shopify badge. Launched May 23, 2023."
       },
       "gorgias": {
-        "value": "4.3 stars, 709 reviews (5 stars 82%, 1 star 10%), checked 2026-11-20",
+        "value": "4.3 stars, 709 reviews (5 stars 82%, 1 star 10%), checked 2026-11-25",
         "status": "yes",
         "source_url": "https://apps.shopify.com/helpdesk",
         "evidence": "Rating 4.3 (709)",
-        "accessed": "2026-11-20",
+        "accessed": "2026-11-25",
         "note": "Listing name is now 'Gorgias: AI Agent & Helpdesk'. Rating breakdown: 582 five-star, 34 four, 9 three, 12 two, 72 one."
       }
     },

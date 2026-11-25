@@ -71,10 +71,10 @@
     "feature": "AI overage",
     "value": "$0.075 per AI reply over the plan on Basic, Pro and Plus, up to a monthly spending cap the merchant sets; no overage on Free",
     "status": "yes",
-    "source_url": "https://apps.shopify.com/chatty",
-    "accessed": "2026-11-20",
-    "evidence": "$0.075 per AI reply over your plan, up to the monthly cap you set.",
-    "note": "chatty.net/pricing/ shows the same $0.075 and estimates 2.5 AI replies per conversation (the Chatty average). Note: help.chatty.net/product-roadmap/pricing still shows $0.4/conversation. Help center: cap can be set from $1 to $1,000; at the cap the AI pauses until the next billing cycle."
+    "source_url": "https://chatty.net/pricing/",
+    "accessed": "2026-11-25",
+    "evidence": "On Basic, Pro and Plus, AI replies over your plan are billed at $0.075 each on the same 30-day cycle as your plan, and you can set a spending limit in the app",
+    "note": "The pricing page estimates 2.5 AI replies per conversation (the Chatty average). On 2026-11-25 the Shopify App Store listing shows $0.4 per AI conversation over the plan, and help.chatty.net/product-roadmap/pricing shows $0.4/conversation; the data uses the pricing page. Help center: cap can be set from $1 to $1,000; at the cap the AI pauses until the next billing cycle."
   },
   {
     "id": "pricing.seats",
@@ -454,12 +454,12 @@
     "id": "rating.shopify_app_store",
     "category": "Ratings",
     "feature": "Shopify App Store rating",
-    "value": "4.9 stars, 1,894 reviews (2026-11-20)",
+    "value": "4.9 stars, 1,891 reviews (2026-11-25)",
     "status": "yes",
     "source_url": "https://apps.shopify.com/chatty",
-    "accessed": "2026-11-20",
-    "evidence": "Rating 4.9 (1,894)",
-    "note": "96% of ratings are 5 stars. chatty.net/pricing/ still shows 1,880 reviews as of 13 Oct 2026."
+    "accessed": "2026-11-25",
+    "evidence": "Rating 4.9 (1,891)",
+    "note": "96% of ratings are 5 stars. chatty.net/pricing/ shows the same 1,891 reviews as of 25 Nov 2026."
   },
   {
     "id": "rating.g2",
